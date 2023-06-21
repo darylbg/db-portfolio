@@ -49,6 +49,11 @@ nav {
     padding-top: 15px !important;
 }
 
+.bg-body-tertiary {
+
+    background-color: var(--dark-navy) !important;
+}
+
 .navbar-brand {
     color: var(--green) !important;
 }

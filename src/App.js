@@ -1,11 +1,15 @@
 import React from 'react';
+import { Link } from "react-router-dom";
 import './App.css';
+import './Home';
+import Home from './Home';
 
 function App() {
+
   return (
     <>
       <div className="nav-container container">
-        <nav className="navbar navbar-expand-md bg-body-tertiary" style={{ backgroundColor: '#020c1b !important'}}>
+        <nav className="navbar navbar-expand-md bg-body-tertiary">
           <div className="nav-container-div container-fluid">
             <a className="navbar-brand" href="#navbar">Daryl</a>
             <div className="nav-flex-fill flex-fill"></div>
@@ -33,7 +37,7 @@ function App() {
         </nav>
       </div>
       <div className="container">
-    
+      < Home />
       </div>
     </>
   );
