@@ -2,7 +2,7 @@ import React from 'react';
 // import { Link } from "react-router-dom";
 import './assets/css/Style.css';
 import Navbar from './components/Navbar';
-// import Home from './components/Home';
+import Home from './sections/Home';
 // import About from './components/About';
 // import Experience from './components/Experience';
 // import Projects from './components/Projects';
@@ -14,7 +14,7 @@ function App() {
     <>
       <Navbar />
       <div className="container">
-      {/* < Home /> */}
+      <Home />
       {/* < About /> */}
       {/* < Experience /> */}
       {/* < Projects /> */}
