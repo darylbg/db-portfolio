@@ -21,13 +21,13 @@ const SvgComponent1 = (props) => (
         <stop
           offset="0%"
           style={{
-            stopColor: "#04d9ff",
+            stopColor: "rgb(4,217,255)",
           }}
         />
         <stop
           offset="100%"
           style={{
-            stopColor: "#04d9ff",
+            stopColor: "rgb(4,217,255)",
           }}
         />
       </linearGradient>

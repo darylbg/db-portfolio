@@ -3,9 +3,9 @@ import React from 'react';
 import './assets/css/Style.css';
 import Navbar from './components/Navbar';
 import Home from './sections/Home';
-// import About from './components/About';
-// import Experience from './components/Experience';
-// import Projects from './components/Projects';
+import About from './sections/About';
+import Experience from './sections/Experience';
+import Projects from './sections/Projects';
 import Footer from './components/Footer';
 
 function App() {
@@ -15,9 +15,9 @@ function App() {
       <Navbar />
       <div className="container">
       <Home />
-      {/* < About /> */}
-      {/* < Experience /> */}
-      {/* < Projects /> */}
+      <About />
+      <Experience />
+      <Projects />
       <Footer />
       </div>
     </>
