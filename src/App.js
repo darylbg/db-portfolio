@@ -12,13 +12,13 @@ function App() {
 
   return (
     <>
-      < Navbar />
+      <Navbar />
       <div className="container">
       {/* < Home /> */}
       {/* < About /> */}
       {/* < Experience /> */}
       {/* < Projects /> */}
-      < Footer />
+      <Footer />
       </div>
     </>
   );
