@@ -24,7 +24,7 @@
 
 @font-face {
     font-family: inter;
-    src: url('../src/assets/fonts/Inter-VariableFont_slnt\,wght.ttf') format('truetype');
+    src: url('../fonts/Inter-VariableFont_slnt\,wght.ttf') format('truetype');
     /* Add additional font formats if necessary */
    } 
   
@@ -74,9 +74,12 @@ nav {
     margin-left: 10px; 
 }
 
-
-
 .nav-item-1 a {
+    color: var(--green);
+    font-family: 'Courier Prime', monospace;
+}
+
+.nav-item-1 Link {
     color: var(--green);
     font-family: 'Courier Prime', monospace;
 }
@@ -88,11 +91,22 @@ nav {
     font-family: 'Courier Prime', monospace;
 }
 
+.nav-item-2 Link,
+.nav-item-3 Link,
+.nav-item-4 Link {
+    color: var(--light-slate) !important;
+    font-family: 'Courier Prime', monospace;
+}
+
 .nav-item:hover .nav-link {
     color: var(--green) !important;
 }
 
 .nav-item a span {
+    color: var(--green);
+}
+
+.nav-item Link span {
     color: var(--green);
 }
 
