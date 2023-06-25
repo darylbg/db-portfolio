@@ -1,0 +1,47 @@
+.project-card {
+    width: 90%;
+    margin: 25px 0 25px 0 !important;
+    padding: 0;
+}
+
+@media screen and (min-width: 768px) {
+    .project-card {
+        width: 80%;
+    }
+}
+
+@media screen and (min-width: 1100px) {
+    .project-card {
+        width: 70%;
+    }
+}
+
+.project-card ul {
+    padding: 0;
+}
+
+.project-image {
+    position: relative;
+}
+
+.project-card img {
+    height: 100%;
+    background-size: cover;
+}
+
+.img-hover {
+    position: absolute;
+    top: 0;
+    height: 100%;
+    width: 100%;
+}
+
+.img-hover a {
+    height: 50%;
+    display: block;
+}
+
+.hover-live-link,
+.hover-code-link {
+    height: 100%;
+}

@@ -4,7 +4,7 @@ import '../assets/css/Style.css';
 
 function Projects() {
     const projects = [
-        {title: 'Project 1', description: 'App using node', img: 'ReadSky.PNG', 
+        {title: 'Project 1', description: 'App using node', img: 'ReadSky.PNG', liveLink: '', codeLink: '',
             pills: [
                 {name: 'React', link: 'https://create-react-app.dev/docs/adding-images-fonts-and-files/'},
                 {name: 'HTML', link: 'https://create-react-app.dev/docs/adding-images-fonts-and-files/'},
