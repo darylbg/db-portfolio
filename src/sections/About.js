@@ -1,7 +1,20 @@
 import React from "react";
+import DevIcons from "../components/DevIcons";
 import '../assets/css/Style.css';
 
 function About() {
+    const languages = [
+        {name: 'HTML', description: 'html5-plain'},
+        {name: 'CSS', description: 'css3-plain'},
+        {name: 'Javascript', description: 'javascript-plain'},
+        {name: 'Node', description: 'nodejs-plain'},
+        {name: 'Mysql', description: 'nodejs-plain'},
+        {name: 'Mongodb', description: 'nodejs-plain'},
+        {name: 'React', description: 'nodejs-plain'},
+        {name: 'Jquery', description: 'nodejs-plain'},
+        {name: 'Github', description: 'nodejs-plain'},
+    ]
+
     return (
         <div className="row about" id="about">
         <div className="col-12 text-center">
@@ -24,16 +37,9 @@ function About() {
                 <h5>Some technologies I am familiar with</h5>
             </div>
             <div className="row text-center">
-                <div className="col-3">js</div>
-                <div className="col-3">css</div>
-                <div className="col-3">node</div>
-                <div className="col-3">mysql</div>
-            </div>
-            <div className="row text-center">
-                <div className="col-3">bootstrap</div>
-                <div className="col-3">jquery</div>
-                <div className="col-3">github</div>
-                <div className="col-3">html</div>
+            {languages.map((language, index) => (
+                <DevIcons key={index} name={language.name} description={language.description} />
+            ))}
             </div>
         </div>
         </div>

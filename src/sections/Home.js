@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import '../assets/css/Style.css';
 import { Link } from 'react-router-dom';
+import { GitHub, Mail, Linkedin, FileText } from 'react-feather';
 import SvgComponent1 from '../components/SvgComponent1';
 import SvgComponent2 from '../components/SvgComponent2';
 
@@ -33,26 +34,26 @@ function Home() {
             <div className="home-icons" id="home">
                 <ul className="home-icons-ul list-group align-middle">
                 <Link to="/" className="list-group-item">
-                {/* <a className="list-group-item" href="https://github.com/darylbg" target="_blank"> */}
-                    <i data-feather="github"></i>                      
+                {/* <a className="list-group-item" href="https://github.com/darylbg" target="_blank"> */}           
+                    <GitHub />
                     <span className="home-icon-span">--Github</span>
                 {/* </a> */}
                 </Link>
                 <Link to="/" className="list-group-item">
                 {/* <a className="list-group-item" href="https://www.linkedin.com/in/daryl-blough-063610173/" target="_blank"> */}
-                    <i data-feather="linkedin"></i>                      
+                    <Linkedin />                   
                     <span className="home-icon-span">--Linkedin</span>
                 {/* </a> */}
                 </Link>
                 <Link to="/" className="list-group-item">
                 {/* <a className="list-group-item" href="mailto: darylxcuf@gmail.com"> */}
-                    <i data-feather="mail"></i>          
+                    <Mail />          
                     <span className="home-icon-span">--Email</span>         
                 {/* </a>  */}
                 </Link>
                 <Link to="/" className="list-group-item">
                 {/* <a className="list-group-item" href=""> */}
-                    <i data-feather="file-text"></i>
+                    <FileText />
                     <span className="home-icon-span">--Resume</span>
                 {/* </a> */}
                 </Link>

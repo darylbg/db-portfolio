@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import { GitHub, Mail, Linkedin, FileText } from 'react-feather';
 import '../assets/css/Style.css';
 
 function Footer() {
@@ -9,22 +10,22 @@ function Footer() {
             <ul className="footer-icons list-group list-group-horizontal">
                 <Link to="/" className="list-group-item">
                 {/* <a className="list-group-item" href=""> */}
-                  <i data-feather="github"></i> 
+                  <GitHub />
                 {/* </a> */}
                 </Link>
                 <Link to="/" className="list-group-item">
                 {/* <a className="list-group-item" href=""> */}
-                  <i data-feather="linkedin"></i> 
+                  <Linkedin />
                 {/* </a> */}
                 </Link>
                 <Link to="/" className="list-group-item">
                 {/* <a className="list-group-item" href=""> */}
-                  <i data-feather="mail"></i> 
+                  <Mail />
                 {/* </a> */}
                 </Link>
                 <Link to="/" className="list-group-item">
                 {/* <a className="list-group-item" href=""> */}
-                  <i data-feather="file-text"></i> 
+                  <FileText />
                 {/* </a> */}
                 </Link>
             </ul>
