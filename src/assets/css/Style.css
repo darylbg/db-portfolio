@@ -345,6 +345,15 @@ nav {
     color: var(--slate);
 }
 
+.devicon-row {
+    justify-content: center;
+}
+
+.devicons-header {
+    color: var(--light-slate);
+    margin: 100px 0 30px 0;
+}
+
 /* footer */
 
 .footer-icons a {

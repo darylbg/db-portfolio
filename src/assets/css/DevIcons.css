@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Anonymous+Pro&family=Courier+Prime&family=Inter:wght@100;200;700&display=swap');
+
+.devicons {
+    margin: 15px 7px 15px 7px;
+    box-shadow: rgba(4,217,255, 0.25) 0px 10px 60px -12px, rgba(4,217,255, 0.3) 0px 18px 36px -18px;    width: 6em;
+    padding: 0;
+    border: 2px solid transparent;
+}
+
+.devicons a {
+    text-decoration: none;
+    /* margin: 10px; */
+    width: 100%;
+}
+
+.devicons a i {
+    display: block;
+    font-size: 50px;
+    padding-top: 10px;
+}
+
+.devicons a span {
+    color: #04d9ff;
+    display: block;
+    font-size: 0.8em;
+    margin-bottom: -10px;
+    margin: 10px 0 10px 0;
+    font-family: 'Courier Prime', monospace;
+}
+
+.devicons:hover {
+    background-color: #112240;
+    border: 2px solid #04d9ff;
+    transform: translateY(-5px);
+    transition: all ease-in-out 0.3s;
+}
