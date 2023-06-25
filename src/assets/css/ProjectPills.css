@@ -1,0 +1,9 @@
+.project-pills {
+    margin: 0 2px 0 2px;
+    display: inline-block;
+}
+
+.project-pills span a {
+    color: black;
+    text-decoration: none;
+}

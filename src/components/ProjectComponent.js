@@ -1,23 +1,71 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
-import '../assets/css/ProjectComponent.css'
+import ProjectPills from './subComponents/ProjectPills';
+import '../assets/css/ProjectComponent.css';
 
-function ProjectComponent() {
-    // const projectLanguages = ['React', 'HTML', 'CSS', 'MongoDB', 'MySQL', 'Javascript']
+function ProjectComponent({ index, title, description, img, pills }) {
+
+    // const [ textAlignment, setTextAlignment ] = useState('text-end');
+    // const [ imgAlignment, setImgAlignment ] = useState('');
+
+    // useEffect(() => {
+    //     handleTextAlignment(index);
+    //     handleImgAlignment(index);
+    // }, [])
+
+    // const handleTextAlignment = (index) => {
+    //     if(index%2 === 0) {
+    //         setTextAlignment('text-start');
+    //     }
+    // }
+
+    // const handleImgAlignment = (index) => {
+    //     if(index%2 === 0) {
+    //         setImgAlignment('d-none');
+    //     } else {
+    //         setImgAlignment('');
+    //     }
+    // }
 
     return(
-        <div class="card mb-3" style={{maxWidth: '540px'}}>
-            <div class="row g-0">
-                <div class="col-md-4">
+        <div className="project-card card mb-3" id={index}>
+            { if( index%2)}
+            <div className="row g-0">
+                <div className="col-md-8">
+                    <div className={`card-body ${textAlignment}`}>
+                        <h5 className="card-title">{title}</h5>
+                        <p className="card-text">{description}</p>
+                        <p className="card-text"><small className="text-body-secondary">Last updated 3 mins ago</small></p>
+                        <ul>
+                            {pills.map((pill, index) => (
+                                <ProjectPills key={index} name={pill.name} link={pill.link} />
+                            ))}
+                        </ul>
+                    </div>
+                </div>
+                <div className="project-image col-md-4">
                     <Link to='/'>
-                        <img src="..." class="img-fluid rounded-start" alt="..."></img>
+                        <img src={require(`../assets/images/${img}`)} className="img-fluid rounded-start" alt="..."></img>
                     </Link>
                 </div>
-                <div class="col-md-8">
-                    <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                        <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+            </div>
+
+            <div className="row g-0">
+                <div className="project-image col-md-4">
+                    <Link to='/'>
+                        <img src={require(`../assets/images/${img}`)} className="img-fluid rounded-start" alt="..."></img>
+                    </Link>
+                </div>
+                <div className="col-md-8">
+                    <div className={`card-body ${textAlignment}`}>
+                        <h5 className="card-title">{title}</h5>
+                        <p className="card-text">{description}</p>
+                        <p className="card-text"><small className="text-body-secondary">Last updated 3 mins ago</small></p>
+                        <ul>
+                            {pills.map((pill, index) => (
+                                <ProjectPills key={index} name={pill.name} link={pill.link} />
+                            ))}
+                        </ul>
                     </div>
                 </div>
             </div>
