@@ -4,7 +4,7 @@ import ProjectPills from './subComponents/ProjectPills';
 import { ExternalLink, Code } from 'react-feather';
 import '../assets/css/ProjectComponent.css';
 
-function ProjectComponent({ index, title, description, img, pills }) {
+function ProjectComponent({ index, title, description, img, pills, liveLink, codeLink }) {
     const [ isHovered, setIsHovered] = useState(false);
 
     const handleMouseEnter = () => {
@@ -14,9 +14,13 @@ function ProjectComponent({ index, title, description, img, pills }) {
       const handleMouseLeave = () => {
         setIsHovered(false);
       };
+    
+      const Styles = {
+        background: 'linear-gradient(90deg, rgba(10,25,47,1) 0%, rgba(38,61,102,1) 100%)',
+      }
 
     return(
-        <div className="project-card card mb-3" id={index}>
+        <div className="project-card card mb-3" id={index} style={Styles}>
             { index%2 === 0 ? (
             <div className="row g-0">
                 <div className="col-md-8">
@@ -33,13 +37,13 @@ function ProjectComponent({ index, title, description, img, pills }) {
                 <div className="project-image col-md-4" onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave}>
                         <img src={require(`../assets/images/${img}`)} className="img-fluid rounded-start" alt="..."></img>
                         <div className={`img-hover ${isHovered ? '' : 'd-none'}`}>
-                            <Link to='/'>
+                            <Link to={liveLink} target='_blank'>
                                 <div className='hover-live-link align-middle'>
                                     <ExternalLink />
                                     <span >View live</span>
                                 </div>
                             </Link>
-                            <Link to='/'>
+                            <Link to={codeLink} target='_blank'>
                                 <div className='hover-code-link align-middle'>
                                     <Code />
                                     <span className=''>Source code</span>
@@ -54,13 +58,13 @@ function ProjectComponent({ index, title, description, img, pills }) {
                 <div className={"project-image col-md-4"} onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave}>
                 <img src={require(`../assets/images/${img}`)} className="img-fluid rounded-start" alt="..."></img>
                     <div className={`img-hover ${isHovered ? '' : 'd-none'}`}>
-                        <Link to='/'>
+                        <Link to={liveLink} target='_blank'>
                             <div className='hover-live-link align-middle'>
                                 <ExternalLink />
                                 <span >View live</span>
                             </div>
                         </Link>
-                        <Link to='/'>
+                        <Link to={codeLink} target='_blank'>
                             <div className='hover-code-link align-middle'>
                                 <Code />
                                 <span className=''>Source code</span>
