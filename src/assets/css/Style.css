@@ -34,6 +34,10 @@ body {
     font-family: inter !important;
     overflow-x: hidden;
 }
+
+a {
+    cursor: pointer !important;
+}
 /* navbar */
 
 .nav-container {
@@ -309,10 +313,38 @@ nav {
     color: var(--lightest-slate);
 }
 
-/* about section */
+/* experience section */
 
-.about {
-    margin-top: 100px !important;
+.education-div {
+    margin: 30px 0 60px 0;
+}
+
+.education-div li {
+    background-color: var(--dark-navy);
+    border: none;
+    position: relative;
+    border-left: 1px solid var(--green);
+    border-radius: 0% !important;
+}
+
+.education-div li svg {
+    position: absolute;
+    left: -8px;
+    background-color: var(--dark-navy);
+    color: var(--green);
+    top: 11px;
+}
+
+.education-div li h5 {
+    color: var(--lightest-slate);
+    padding-left: 20px;
+    display: block;
+}
+
+.education-div li span {
+    color: var(--light-slate);
+    padding-left: 20px;
+    display: block;
 }
 
 .work-tabs button {
@@ -339,7 +371,11 @@ nav {
     color: var(--light-slate);
 }
 
-/* about me */
+/* about section */
+
+.about {
+    margin-top: 100px !important;
+}
 
 .about-text {
     color: var(--slate);

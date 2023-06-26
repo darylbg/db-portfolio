@@ -28,34 +28,27 @@ function Home() {
     <div className="row home">
         <div className="col-sm-12 col-md-5 home-1">
             <div className="home-image">
+            {/* <object type="image/svg+xml" data={SvgComponent1}></object> */}
             <SvgComponent1 />
             <SvgComponent2 />
             </div>
             <div className="home-icons" id="home">
                 <ul className="home-icons-ul list-group align-middle">
-                <Link to="/" className="list-group-item">
-                {/* <a className="list-group-item" href="https://github.com/darylbg" target="_blank"> */}           
+                <Link to="/" className="list-group-item">       
                     <GitHub />
                     <span className="home-icon-span">--Github</span>
-                {/* </a> */}
                 </Link>
                 <Link to="/" className="list-group-item">
-                {/* <a className="list-group-item" href="https://www.linkedin.com/in/daryl-blough-063610173/" target="_blank"> */}
                     <Linkedin />                   
                     <span className="home-icon-span">--Linkedin</span>
-                {/* </a> */}
                 </Link>
                 <Link to="/" className="list-group-item">
-                {/* <a className="list-group-item" href="mailto: darylxcuf@gmail.com"> */}
                     <Mail />          
                     <span className="home-icon-span">--Email</span>         
-                {/* </a>  */}
                 </Link>
                 <Link to="/" className="list-group-item">
-                {/* <a className="list-group-item" href=""> */}
                     <FileText />
                     <span className="home-icon-span">--Resume</span>
-                {/* </a> */}
                 </Link>
             </ul>
             </div>
@@ -70,20 +63,10 @@ function Home() {
             <div className="home-subtitle-div">
             <h3 id="home-subtitle" className={isSubtitleVisible ? 'visible' : ''}>I build stuff for the web.</h3>
             </div>
-            <div className="home-bio-div">
-            <h6 className="home-2-bio">
-                I’m a software engineer specializing in building 
-                (and occasionally designing) exceptional digital 
-                experiences. Currently, I’m focused on building 
-                accessible, human-centered products at Upstatement.
-            </h6>
-            </div>
         </div>
         <div className="email">
-            <Link to="/">
-            {/* <a href=""> */}
+            <Link to="/" onClick={() => window.location = 'mailto:yourmail@domain.com'}>
                 darylxcuf@gmail.com
-            {/* </a> */}
             </Link>
         </div>
         <div className="arrow"></div>
