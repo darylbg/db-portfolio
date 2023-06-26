@@ -1,9 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Anonymous+Pro&family=Courier+Prime&family=Inter:wght@100;200;700&display=swap');
+
+* {
+    /* outline: 1px solid limegreen; */
+}
+
+:root {
+    --dark-navy: #020c1b;
+    --navy: #0A192F;
+    --light-navy: #112240;
+    --lightest-navy: #233554;
+    --navy-shadow: rgba(2,12,27,0.7);
+    --dark-slate: #495670;
+    --slate: #8892b0;
+    --light-slate: #a8b2d1;
+    --lightest-slate: #ccd6f6;
+    --white: #e6f1ff;
+    /* 64ffda */
+    --green: #04d9ff;
+    --green-tint: rgba(100,255,218,0.1);
+    --pink: #f57dff;
+    --blue: #57cbff;
+}
+
+@font-face {
+    font-family: inter;
+    src: url('../fonts/Inter-VariableFont_slnt\,wght.ttf') format('truetype');
+    /* Add additional font formats if necessary */
+   } 
+
 .project-pills {
     margin: 0 2px 0 2px;
     display: inline-block;
 }
 
+.project-pills span {
+    background-color: var(--dark-navy) !important;
+    border: 1px solid var(--green);
+}
+
+.project-pills span:hover {
+    background-color: var(--green) !important;
+    color: var(--dark-navy) !important;
+}
+
+.project-pills span:hover .project-pills span a {
+    color: var(--dark-navy) !important;
+  }  
+
 .project-pills span a {
-    color: black;
+    color: var(--green);
     text-decoration: none;
+    font-family: 'Courier Prime', monospace;
+    width: 100%;
+    height: 100%;
 }

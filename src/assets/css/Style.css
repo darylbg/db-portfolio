@@ -315,8 +315,12 @@ nav {
 
 /* experience section */
 
+.experience {
+    margin-top: 150px;
+}
+
 .education-div {
-    margin: 30px 0 60px 0;
+    margin: 40px 0 60px 0;
 }
 
 .education-div li {
@@ -332,19 +336,32 @@ nav {
     left: -8px;
     background-color: var(--dark-navy);
     color: var(--green);
-    top: 11px;
+    top: 15px;
 }
 
 .education-div li h5 {
     color: var(--lightest-slate);
     padding-left: 20px;
     display: block;
+    margin-bottom: 0;
+}
+
+.education-date {
+    padding-bottom: 10px;
 }
 
 .education-div li span {
     color: var(--light-slate);
     padding-left: 20px;
     display: block;
+}
+
+.work-history-div {
+    margin-top: 40px;
+}
+
+.work-tabs {
+    margin: 0 !important;
 }
 
 .work-tabs button {
@@ -366,9 +383,27 @@ nav {
     border-left: 3px solid var(--green);
 }
 
-.tab-content .tab-pane {
+.tab-pane {
+    padding: 10px;
     background-color: var(--light-navy);
+}
+
+.tab-pane h5 {
+    color: var(--lightest-slate);
+}
+
+.tab-pane h6 {
     color: var(--light-slate);
+}
+
+.tab-pane p {
+    color: var(--light-slate);
+    padding: 0;
+    margin: 0;
+}
+
+.tab-pane p span {
+    color: var(--green);
 }
 
 /* about section */
@@ -391,6 +426,10 @@ nav {
 }
 
 /* projects */
+
+.projects {
+    margin-top: 150px;
+}
 
 .projects-row {
     justify-content: center;
