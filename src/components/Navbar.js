@@ -4,11 +4,6 @@ import '../assets/css/Style.css';
 
 function Navbar() {
 
-  const homeEl = document.getElementById('home');
-  const aboutEl = document.getElementById('about');
-  const experienceEl = document.getElementById('experience');
-  const projectsEl = document.getElementById('projects');
-
   const handleScroll = (e) => {
     e.preventDefault();
     const targetId = e.target.getAttribute('href').substring(1);

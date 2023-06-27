@@ -25,7 +25,7 @@ function ProjectComponent({ index, title, description, img, pills, liveLink, cod
             <div className="row g-0">
                 <div className="col-md-8">
                     <div className='card-body text-start'>
-                        <h4 className="card-title">{title}</h4>
+                        <h5 className="card-title">{title}</h5>
                         <p className="card-text">{description}</p>
                         <ul>
                             {pills.map((pill, index) => (
@@ -74,7 +74,7 @@ function ProjectComponent({ index, title, description, img, pills, liveLink, cod
                 </div>
                 <div className="col-md-8">
                     <div className='card-body text-end'>
-                        <h4 className="card-title">{title}</h4>
+                        <h5 className="card-title">{title}</h5>
                         <p className="card-text">{description}</p>
                         <ul>
                             {pills.map((pill, index) => (
