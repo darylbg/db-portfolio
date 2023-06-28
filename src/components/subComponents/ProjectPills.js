@@ -5,7 +5,7 @@ import '../../assets/css/ProjectPills.css'
 function ProjectPills({name, link}) {
     return(
         <li className="project-pills">
-            <span className="badge rounded-pill text-bg-primary">
+            <span className="badge text-bg-secondary">
                 <Link to={link} target="_blank">
                 {name}
                 </Link>

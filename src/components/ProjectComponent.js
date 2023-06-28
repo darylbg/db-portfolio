@@ -13,8 +13,13 @@ function ProjectComponent({ index, title, description, img, pills, liveLink, cod
                     <>
                     <div className="col-md-6">
                         <div className="card-body text-start">
-                            <h4 className='card-title'>{`Project ${index + 1}`}</h4>
+                            <h4 className='card-title'>{`PROJECT ${index + 1}`}</h4>
                             <h3 className="card-title">{title}</h3>
+                            <ul>
+                                {pills.map((pill, index) => (
+                                    <ProjectPills name={pill.name} link={pill.link} key={index} />
+                                ))}  
+                            </ul>
                             <p className="card-text">{description}</p>
                             <ul>
                                 <li><Link>View Project</Link></li>
@@ -35,8 +40,13 @@ function ProjectComponent({ index, title, description, img, pills, liveLink, cod
                     </div>
                         <div className="col-md-6">
                         <div className="card-body text-start">
-                            <h4 className='card-title'>{`Project ${index + 1}`}</h4>
+                            <h4 className='card-title'>{`PROJECT ${index + 1}`}</h4>
                             <h3 className="card-title">{title}</h3>
+                            <ul>
+                                {pills.map((pill, index) => (
+                                    <ProjectPills name={pill.name} link={pill.link} key={index} />
+                                ))}  
+                            </ul>
                             <p className="card-text">{description}</p>
                             <ul>
                                 <li><Link>View Project</Link></li>

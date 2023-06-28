@@ -79,7 +79,7 @@
 .project-card {
     max-width: 90%;
     padding: 0;
-    margin: 50px 0 50px 0;
+   margin-bottom: 200px !important;
     /* padding: 20px 0 20px 0; */
     background-color: var(--dark-navy);
 }
@@ -99,14 +99,14 @@
 .card-image {
     box-sizing: border-box;
     position: relative;
-    aspect-ratio: 1/1;
+    aspect-ratio: 1.3/1;
 }
 
 .img-border {
     border: 8px solid var(--green);
     position: absolute;
     height: 95%;
-    aspect-ratio: 1/1;
+    aspect-ratio: 1.3/1;
     bottom: 0;
     right: 5%;
     border-radius: 11px;
@@ -121,7 +121,7 @@
     right: 0;
     border-radius: 10px;
     height: 95%;
-    aspect-ratio: 1/1;
+    aspect-ratio: 1.3/1;
     z-index: 1;
 }
 
@@ -143,6 +143,24 @@
   transition: opacity 0.2s ease-in; /* Smooth transition effect for opacity */
 }
 
+.card-body {
+    padding-top: 0;
+}
+
 .card-body h4 {
-    font-family: 'Noto Serif', serif;
+    font-family: inter;
+    font-weight: 900;
+    font-size: 1.7em;
+    color: var(--dark-slate);
+}
+
+.card-body h3 {
+    font-family: inter;
+    font-weight: 900;
+    font-size: 2em;
+    color: var(--lightest-slate);
+}
+
+.card-body ul {
+    padding-left: 0;
 }
