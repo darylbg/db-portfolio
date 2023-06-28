@@ -143,9 +143,12 @@
   transition: opacity 0.2s ease-in; /* Smooth transition effect for opacity */
 }
 
-.card-body {
-    padding-top: 0;
+@media screen and (min-width: 768px) {
+    .card-body {
+        padding-top: 0;
+    }
 }
+
 
 .card-body h4 {
     font-family: inter;
