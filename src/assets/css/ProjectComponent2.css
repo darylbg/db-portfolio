@@ -196,6 +196,16 @@
       grid-template-areas: 
         "content image";
     }
+
+    .image-content {
+        grid-template-areas: 
+          "image content";
+      }
+      
+      .content-image {
+        grid-template-areas: 
+          "content image";
+      }
   }
   
   .project__img-container {

@@ -392,6 +392,10 @@ nav {
 
 /* projects */
 
+#projects {
+    justify-content: center;
+}
+
 .projects-row {
     justify-content: center;
 }
