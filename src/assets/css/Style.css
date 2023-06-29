@@ -323,7 +323,7 @@ nav {
 }
 
 .devicons-header {
-    color: var(--light-slate);
+    color: var(--slate);
     margin: 100px 0 30px 0;
 }
 
@@ -363,8 +363,16 @@ nav {
     list-style-type: disc;
 }
 
-.education-div {
+.education-div,
+.work-div {
     margin: 30px 0 60px 0;
+    display: flex;
+    justify-content: center;
+}
+
+.education-wrapper,
+.work-wrapper {
+    width: fit-content;
 }
 
 .education-div li {

@@ -4,10 +4,12 @@ import '../assets/css/Style.css';
 function Experience() {
     return (
         <div className="row experience" id="experience">
-            <div className="col-12 text-center">
+            <div className="row text-center">
                 <h3 className="section-title">03.<span> Experience ----------------</span></h3>
             </div>
-            <div className="col-12 col-lg-4 education-div">
+            <div className="row education-div">
+              <h4 className="col-12">// Education</h4>
+              <div className="col-12 education-wrapper">
                 <ul className="list-group">
                     <li className="list-group-item">
                     <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-laptop" viewBox="0 0 16 16">
@@ -27,9 +29,11 @@ function Experience() {
                       <span>Graduated with a High School Diploma. And a 3.77 GPA</span>
                     </li>
                 </ul>
+                </div>
             </div>
-            <div className="col-12 col-lg-8">
-                {/* <!-- Nav tabs --> */}
+            <div className="row work-div">
+              <h4 className="col-12">// Work History</h4>
+              <div className="col-12 work-wrapper">
                 <div className="d-flex align-items-start">
                     <div className="work-tabs nav flex-column nav-pills me-3" id="v-pills-tab" role="tablist" aria-orientation="vertical" style={{marginRight: '0 !important'}}>
                       <button className="nav-link text-start active" id="v-pills-home-tab" data-bs-toggle="pill" data-bs-target="#v-pills-home" type="button" role="tab" aria-controls="v-pills-home" aria-selected="true">Pakistan Consulate</button>
@@ -47,7 +51,7 @@ function Experience() {
                         </ul>
                       </div>
                       <div className="tab-pane fade" id="v-pills-profile" role="tabpanel" aria-labelledby="v-pills-profile-tab">
-                        <h3>Office Administrator at the Pakistan Consualte</h3>
+                        <h3>Office Administrator</h3>
                         <h5>2019 - Current</h5>
                         <ul>
                           <li>administrator duties</li>
@@ -56,7 +60,7 @@ function Experience() {
                         </ul>
                       </div>
                       <div className="tab-pane fade" id="v-pills-messages" role="tabpanel" aria-labelledby="v-pills-messages-tab">
-                        <h3>Office Administrator at the Pakistan Consualte</h3>
+                        <h3>Logistics</h3>
                         <h5>2019 - Current</h5>
                         <ul>
                           <li>administrator duties</li>
@@ -65,6 +69,7 @@ function Experience() {
                         </ul>
                       </div>
                     </div>
+                  </div>
                   </div>
             </div>
         </div>

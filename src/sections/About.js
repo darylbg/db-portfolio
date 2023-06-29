@@ -42,9 +42,8 @@ function About() {
             </p>
         </div>
         <div className="col-0 col-lg-3"></div>
-        <div className="col-12 text-center">
-            <h5 className="devicons-header">My Techstack</h5>
-        </div>
+        <h4 className="col-12 text-center devicons-header">// My Techstack
+        </h4>
         <div className="col-0 col-lg-3"></div>
         <div className="row col-12 col-lg-6 text-center devicon-row">
             {languages.map((language, index) => (
