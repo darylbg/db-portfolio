@@ -38,25 +38,31 @@ function Experience() {
                     </div>
                     <div className="tab-content" id="v-pills-tabContent">
                       <div className="tab-pane fade show active" id="v-pills-home" role="tabpanel" aria-labelledby="v-pills-home-tab">
-                        <h3>Office Administrator at the Pakistan Consualte</h3>
+                        <h3>Office Administrator</h3>
                         <h5>2019 - Current</h5>
-                        <p>administrator duties</p>
-                        <p>purchaseing it networking</p>
-                        <p>manager projects programs</p>
+                        <ul>
+                          <li>administrator duties</li>
+                          <li>purchaseing it networking</li>
+                          <li>manager projects programs</li>
+                        </ul>
                       </div>
                       <div className="tab-pane fade" id="v-pills-profile" role="tabpanel" aria-labelledby="v-pills-profile-tab">
                         <h3>Office Administrator at the Pakistan Consualte</h3>
                         <h5>2019 - Current</h5>
-                        <p>administrator duties</p>
-                        <p>purchaseing it networking</p>
-                        <p>manager projects programs</p>
+                        <ul>
+                          <li>administrator duties</li>
+                          <li>purchaseing it networking</li>
+                          <li>manager projects programs</li>
+                        </ul>
                       </div>
                       <div className="tab-pane fade" id="v-pills-messages" role="tabpanel" aria-labelledby="v-pills-messages-tab">
                         <h3>Office Administrator at the Pakistan Consualte</h3>
                         <h5>2019 - Current</h5>
-                        <p>administrator duties</p>
-                        <p>purchaseing it networking</p>
-                        <p>manager projects programs</p>
+                        <ul>
+                          <li>administrator duties</li>
+                          <li>purchaseing it networking</li>
+                          <li>manager projects programs</li>
+                        </ul>
                       </div>
                     </div>
                   </div>

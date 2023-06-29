@@ -23,19 +23,27 @@ function About() {
         <div className="col-0 col-lg-3"></div>
         <div className="col-12 col-lg-6 about-div text-center">
             <p className="about-text">
-                I am basically the best developer in the world.
-                I work well in a team and as a company bitch
-                as well as a hacker and it specialist. i have loads 
-                of certifications and all that shit. I learn quick
-                i have memorized the Bible and the dictionary.
-                Puhleeeeeze hire me. some more shit about me
-                that i need for this section as i am a piece of shit 
-                hi fuck cunt bitch i love atmospheric black metal.
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                Proin posuere, nisi id faucibus luctus, sem odio laoreet 
+                dui, non dapibus justo dui sed nunc. Nullam eu justo id 
+                lectus pharetra lobortis. Pellentesque tincidunt mi sed 
+                justo facilisis fringilla. Vestibulum efficitur justo sed 
+                turpis lacinia, non volutpat sapien bibendum. Aenean sed 
+                ipsum nec metus facilisis finibus. Nullam vel massa vel 
+                ex sagittis dapibus vitae in eros. Aliquam erat volutpat. 
+                Fusce mollis enim a dui posuere ullamcorper. Aliquam rutrum, 
+                lectus vitae consectetur tristique, justo lacus tempus orci, 
+                at fermentum nisi dolor at nisi. Etiam at tellus at tellus 
+                mattis aliquet. Donec lobortis semper elit eu semper. Sed 
+                efficitur dui sit amet eros feugiat, non dapibus tellus 
+                aliquam. Duis et ante non tortor rutrum rhoncus. Vivamus 
+                rutrum lacinia nisi at tempor. Sed sagittis est et sem 
+                feugiat faucibus.
             </p>
         </div>
         <div className="col-0 col-lg-3"></div>
         <div className="col-12 text-center">
-            <h5 className="devicons-header">Some technologies I am familiar with</h5>
+            <h5 className="devicons-header">My Techstack</h5>
         </div>
         <div className="col-0 col-lg-3"></div>
         <div className="row col-12 col-lg-6 text-center devicon-row">
@@ -44,7 +52,7 @@ function About() {
             ))}
         </div>
         <div className="col-0 col-lg-3"></div>
-        </div>
+    </div>
 
     )
 };

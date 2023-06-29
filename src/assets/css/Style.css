@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Anonymous+Pro&family=Courier+Prime&family=Inter:wght@100;200;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lekton&display=swap');
 
 * {
     /* outline: 1px solid limegreen; */
@@ -20,6 +21,10 @@
     --green-tint: rgba(100,255,218,0.1);
     --pink: #f57dff;
     --blue: #57cbff;
+
+    --font-primary: 'inter', sans-serif;
+    --font-secondary: 'Lekton', sans-serif;
+    --font-typewriter: 'Courier Prime', monospace;
 }
 
 @font-face {
@@ -60,6 +65,8 @@ nav {
 
 .navbar-brand {
     color: var(--green) !important;
+    font-family: var(--font-secondary);
+    font-weight: bold;
 }
 
 .nav-item {
@@ -80,26 +87,16 @@ nav {
 
 .nav-item-1 a {
     color: var(--green);
-    font-family: 'Courier Prime', monospace;
-}
-
-.nav-item-1 Link {
-    color: var(--green);
-    font-family: 'Courier Prime', monospace;
+    /* font-family: 'Courier Prime', monospace; */
+    font-family: var(--font-secondary);
 }
 
 .nav-item-2 a,
 .nav-item-3 a,
 .nav-item-4 a {
     color: var(--light-slate) !important;
-    font-family: 'Courier Prime', monospace;
-}
-
-.nav-item-2 Link,
-.nav-item-3 Link,
-.nav-item-4 Link {
-    color: var(--light-slate) !important;
-    font-family: 'Courier Prime', monospace;
+    /* font-family: 'Courier Prime', monospace; */
+    font-family: var(--font-secondary);
 }
 
 .nav-item:hover .nav-link {
@@ -107,10 +104,6 @@ nav {
 }
 
 .nav-item a span {
-    color: var(--green);
-}
-
-.nav-item Link span {
     color: var(--green);
 }
 
@@ -249,7 +242,7 @@ nav {
     background-color: transparent;
     border: none;
     color: var(--slate);
-    font-family: 'Courier Prime', monospace;
+    font-family: var(--font-secondary);
 }
 
 .home-icons-ul .list-group-item:hover > .home-icon-span {
@@ -273,12 +266,12 @@ nav {
     bottom: 50%;
     padding: 0 5px 0 5px !important;
     transform: rotate(90deg);
-    margin-right: -82px;
+    margin-right: -73px;
     background-color: var(--dark-navy);
 }
 
 .email a {
-    font-family: 'Courier Prime', monospace;
+    font-family: var(--font-secondary);
     color: var(--lightest-slate);
     font-size: 10px;
     text-decoration: none;
@@ -303,17 +296,72 @@ nav {
 }
 
 .section-title {
-    font-family: 'Courier Prime', monospace;
+    font-family: var(--font-secondary);
     color: var(--green);
     font-size: 2.5vw;
     font-weight: 700;
+    margin-bottom: 100px;
 }
 
 .section-title span {
     color: var(--lightest-slate);
 }
 
+/* about section */
+
+.about {
+    margin-top: 100px !important;
+    margin-bottom: 300px !important;
+}
+
+.about-text {
+    color: var(--slate);
+}
+
+.devicon-row {
+    justify-content: center;
+}
+
+.devicons-header {
+    color: var(--light-slate);
+    margin: 100px 0 30px 0;
+}
+
 /* experience section */
+
+.work-tabs button {
+    font-family: var(--font-secondary);
+    color: var(--light-slate);
+    border-radius: 0 !important;
+    border-left: 1px solid var(--light-slate);
+    box-sizing: border-box !important;
+}
+
+.work-tabs button:hover {
+    /* color: var(--green);
+    background-color: var(--light-navy) !important; */
+    color: var(--green) !important;
+}
+
+.work-tabs .active {
+    background-color: var(--dark-navy) !important;
+    color: var(--green) !important;
+    border-left: 3px solid var(--green);
+}
+
+.tab-pane h3 {
+    color: var(--lightest-slate);
+}
+
+.tab-pane h5 {
+    font-family: var(--font-secondary);
+    color: var(--light-slate);
+}
+
+.tab-pane ul li {
+    color: var(--light-slate);
+    list-style-type: disc;
+}
 
 .education-div {
     margin: 30px 0 60px 0;
@@ -345,49 +393,6 @@ nav {
     color: var(--light-slate);
     padding-left: 20px;
     display: block;
-}
-
-.work-tabs button {
-    font-family: 'Courier Prime', monospace;
-    color: var(--light-slate);
-    border-radius: 0 !important;
-    border-left: 1px solid var(--light-slate);
-}
-
-.work-tabs button:hover {
-    color: var(--green);
-    background-color: var(--light-navy) !important;
-    color: var(--green) !important;
-}
-
-.work-tabs .active {
-    background-color: var(--light-navy) !important;
-    color: var(--green) !important;
-    border-left: 3px solid var(--green);
-}
-
-.tab-content .tab-pane {
-    background-color: var(--light-navy);
-    color: var(--light-slate);
-}
-
-/* about section */
-
-.about {
-    margin-top: 100px !important;
-}
-
-.about-text {
-    color: var(--slate);
-}
-
-.devicon-row {
-    justify-content: center;
-}
-
-.devicons-header {
-    color: var(--light-slate);
-    margin: 100px 0 30px 0;
 }
 
 /* projects */

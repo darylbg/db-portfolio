@@ -21,7 +21,7 @@ function Navbar() {
         <div className="nav-container container">
         <nav className="navbar navbar-expand-md bg-body-tertiary">
           <div className="nav-container-div container-fluid">
-            <Link to="/" className="navbar-brand">Daryl</Link>
+            <Link to="/" className="navbar-brand">daryl.dev</Link>
             {/* <a className="navbar-brand" href="#navbar">Daryl</a> */}
             <div className="nav-flex-fill flex-fill"></div>
             <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
