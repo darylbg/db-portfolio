@@ -1,3 +1,5 @@
+// projects not rendering look into
+
 const projects = [
         {
             title: 'Airbnp', 
