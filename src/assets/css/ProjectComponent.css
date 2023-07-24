@@ -116,6 +116,45 @@
     -khtml-border-radius: 11px;
 }
 
+/* .img-border {
+    border: 8px solid var(--green);
+    position: absolute;
+    height: 95%;
+    max-width: 100%;
+    aspect-ratio: 1.4/1;
+    bottom: 0;
+    right: 4%;
+    border-radius: 11px;
+    -moz-border-radius: 11px;
+    -webkit-border-radius: 11px;
+    -khtml-border-radius: 11px;
+  }
+
+  /* .img-border::before {
+    content: "";
+    position: absolute;
+    top: -5px;
+    left: -5px;
+    right: -5px;
+    bottom: -5px;
+    box-shadow: 0 0 15px #04d9ff, 0 0 15px #04d9ff, 0 0 15px #04d9ff, 0 0 15px #04d9ff;
+    opacity: 1;
+    border-radius: 11px;
+  }
+
+  .img-border::after {
+    content: "";
+    position: absolute;
+    top: -2px;
+    left: -2px;
+    right: -2px;
+    bottom: -2px;
+    background: linear-gradient(90deg, #04d9ff, #00c6ff);
+    z-index: -1;
+    opacity: 0;
+    border-radius: 11px;
+  } */ 
+
 .card-image img {
     position: absolute;
     top: 0;
