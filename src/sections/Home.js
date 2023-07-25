@@ -48,27 +48,27 @@ function Home() {
         <div className="home-icons" id="home">
           <ul className="home-icons-ul">
           <li>
-            <Link to="/" className="">
+            <Link to="/" className="home-resume">
               <FileText />
-              <span className="home-icon-resume">--Resume</span>
+              <span className="home-icon-resume">Resume</span>
             </Link>
             </li>
             <li>
-            <Link to="/" className="">
+            <Link to="/" className="home-icon-hide">
               <GitHub />
-              <span className="home-icon-hide">--Github</span>
+              <span className="">Github</span>
             </Link>
             </li>
             <li>
-            <Link to="/" className="">
+            <Link to="/" className="home-icon-hide">
               <Linkedin />
-              <span className="home-icon-hide">--Linkedin</span>
+              <span className="">Linkedin</span>
             </Link>
             </li>
             <li>
-            <Link to="/" className="">
+            <Link to="/" className="home-icon-hide">
               <Mail />
-              <span className="home-icon-hide">--Email</span>
+              <span className="">Email</span>
             </Link>
             </li>
           </ul>

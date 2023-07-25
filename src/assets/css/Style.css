@@ -234,13 +234,51 @@ nav {
 /* home section icons */
 
 .home-icons-ul {
+    margin-top: 40px;
     padding: 0;
     display: flex;
+    justify-content: space-between;
 }
 
 .home-icons-ul li {
-    flex: 1;
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+    margin-right: 15px;
 } 
+
+.home-icons-ul li a {
+    text-decoration: none;
+    padding: 0 10px 0 10px;
+    width: 100%;
+}
+
+.home-icons-ul li a:hover {
+    transform: scale(1.1);
+    padding-right: -12px;
+}
+
+.home-icons-ul li a svg {
+    padding-right: 10px;
+    height: 25px;
+}
+
+.home-icons-ul li a span {
+    color: var(--navy);
+    font-family: var(--font-secondary);
+}
+
+.home-resume {
+    background-color: var(--green);
+}
+
+.home-resume > * {
+    color: var(--dark-navy);
+}
+
+.home-icon-hide > * {
+    color: var(--green);
+}
 
 /* .home-icons-ul .list-group-item:hover > .home-icon-span {
     transform: translateY(25px); /* this effect needs fixing */
@@ -473,8 +511,8 @@ nav {
     }
 }
 
-@media screen and (max-width: 1000px) {
-    .home-icon-hide {
+@media screen and (max-width: 1200px) {
+    .home-icon-hide span {
         display: none;
     }
 }
@@ -543,18 +581,6 @@ nav {
 
 @media screen and (max-width: 768px) {
     .home-image,
-    /* .home-icons-ul {
-        display: inline-block !important;
-    } */
-
-    /* .home-icons {
-        display: inline-block;
-        height: 100%;
-    } */
-
-    /* .home-icons-ul {
-        padding-top: 0;
-    } */
 
     .email {
         visibility: hidden;
