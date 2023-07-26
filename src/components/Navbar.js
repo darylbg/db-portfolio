@@ -29,7 +29,7 @@ function Navbar() {
             </button>
             <div className="collapse navbar-collapse" id="navbarSupportedContent">
               <div className="nav-flex-fill flex-fill"></div>
-              <ul className="navbar-ul navbar-nav ms-auto mb-2 mb-lg-0" style={{ marginBottom: 0 }}>
+              <ul className="navbar-ul navbar-nav ms-auto mb-2 mb-lg-0">
                 <li className="nav-item-1 nav-item">
                   <Link to="/" className="nav-link" onClick={handleScroll}><span>01.</span> Home</Link>
                   {/* <a className="nav-link" href="#home"><span>01.</span> Home</a> */}

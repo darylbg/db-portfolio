@@ -77,23 +77,13 @@
 } 
 
 .project-card {
-    max-width: 90%;
+    max-width: 100%;
     padding: 0;
    margin-bottom: 200px !important;
     /* padding: 20px 0 20px 0; */
     background-color: var(--dark-navy);
-}
+    /* box-shadow: rgba(4, 217, 255, 0.4) -5px 5px, rgba(4, 217, 255, 0.3) -10px 10px, rgba(4, 217, 255, 0.2) -15px 15px, rgba(4, 217, 255, 0.1) -20px 20px, rgba(4, 217, 255, 0.05) -25px 25px; */
 
-@media screen and (min-width: 993px) {
-    .project-card {
-        max-width: 80%;
-    }
-}
-
-@media screen and (min-width: 1200px) {
-    .project-card {
-        max-width: 70%;
-    }
 }
 
 .card-image {
@@ -116,91 +106,57 @@
     -khtml-border-radius: 11px;
 }
 
-/* .img-border {
-    border: 8px solid var(--green);
-    position: absolute;
-    height: 95%;
-    max-width: 100%;
-    aspect-ratio: 1.4/1;
-    bottom: 0;
-    right: 4%;
-    border-radius: 11px;
-    -moz-border-radius: 11px;
-    -webkit-border-radius: 11px;
-    -khtml-border-radius: 11px;
-  }
-
-  /* .img-border::before {
-    content: "";
-    position: absolute;
-    top: -5px;
-    left: -5px;
-    right: -5px;
-    bottom: -5px;
-    box-shadow: 0 0 15px #04d9ff, 0 0 15px #04d9ff, 0 0 15px #04d9ff, 0 0 15px #04d9ff;
-    opacity: 1;
-    border-radius: 11px;
-  }
-
-  .img-border::after {
-    content: "";
-    position: absolute;
-    top: -2px;
-    left: -2px;
-    right: -2px;
-    bottom: -2px;
-    background: linear-gradient(90deg, #04d9ff, #00c6ff);
-    z-index: -1;
-    opacity: 0;
-    border-radius: 11px;
-  } */ 
-
 .card-image img {
-    position: absolute;
+    /* position: absolute; */
     top: 0;
     right: 0;
     border-radius: 10px;
-    height: 95%;
+    /* height: 95%; */
     aspect-ratio: 1.4/1;
     z-index: 1;
     object-fit: cover;
+    /* box-shadow: rgba(4, 217, 255, 0.4) -5px 5px, rgba(4, 217, 255, 0.3) -10px 10px, rgba(4, 217, 255, 0.2) -15px 15px, rgba(4, 217, 255, 0.1) -20px 20px, rgba(4, 217, 255, 0.05) -25px 25px; */
+
 }
 
-.card-image::before {
+/* .card-image::before {
     content: "";
     position: absolute;
     top: 0;
     right: 0;
-    width: 95%;
-    height: 95%;
+    width: 100%;
+    aspect-ratio: 1.4/1;
     border-radius: 5px;
     background-color: rgba(0,0,0, 0.5);
     z-index: 2;
-    transition: opacity 0s ease-in; /* Smooth transition effect for opacity */
-}
-
-@media screen and (min-width: 768px) {
-    .card-image::before {
-        width: 100%;
-    }
-}
-
-@media screen and (min-width: 1400px) {
-    .card-image::before {
-        width: 95%;
-    }
+    transition: opacity 0s ease-in; 
 }
 
 .project-card:hover .card-image::before {
-  opacity: 0; /* Fade out the overlay on hover */
-  transition: opacity 0.2s ease-in; /* Smooth transition effect for opacity */
-}
+  opacity: 0;
+  transition: opacity 0.2s ease-in; 
+}  */
 
-@media screen and (min-width: 768px) {
+.img-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.6); /* Adjust the alpha value (0.6) to control the transparency */
+    opacity: 0; /* Initially, the overlay is fully transparent */
+    transition: opacity 0.3s; /* Add a smooth transition effect when opacity changes */
+  }
+  
+  .card-image:hover .overlay {
+    opacity: 1; /* On hover, set the overlay's opacity to 1, making it fully visible */
+  }
+
+
     .card-body {
-        padding-top: 0;
+        padding: 0;
     }
-}
+
 
 
 .card-body h4 {
@@ -250,3 +206,21 @@
     transform: translateX(4px) scale(1.2);
     transition: all 0.2s ease-in-out;
   }
+
+  @media screen and (min-width: 768px) {
+    .card-image {
+        padding-left: 25px;
+    }
+}
+
+  @media screen and (min-width: 993px) {
+    .project-card {
+        max-width: 80%;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .project-card {
+        max-width: 70%;
+    }
+}

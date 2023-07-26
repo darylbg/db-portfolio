@@ -56,13 +56,13 @@ function ProjectComponent({
             </ul>
           </div>
         </div>
-        <div className="col-md-6 card-image">
+        <div className="col-md-6 card-image d-flex justify-content-center align-items-center">
           <img
             src={require(`../assets/images/${img}`)}
             className="img-fluid rounded-start"
             alt="..."
           ></img>
-          <div className="img-border"></div>
+          <div className="img-overlay"></div>
         </div>
       </div>
     </div>
