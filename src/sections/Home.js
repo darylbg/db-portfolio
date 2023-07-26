@@ -58,19 +58,19 @@ function Home() {
                 </Link>
               </li>
               <li>
-                <Link to="/" className="home-icon-hide">
+                <Link to="https://github.com/darylbg" target="_blank" className="home-icon-hide">
                   <GitHub />
                   <span className="">Github</span>
                 </Link>
               </li>
               <li>
-                <Link to="/" className="home-icon-hide">
+                <Link to="https://www.linkedin.com/in/daryl-blough-063610173/" target="_blank" className="home-icon-hide">
                   <Linkedin />
                   <span className="">Linkedin</span>
                 </Link>
               </li>
               <li>
-                <Link to="/" className="home-icon-hide">
+                <Link to='mailto: darylxcuf@gmail.com' className="home-icon-hide">
                   <Mail />
                   <span className="">Email</span>
                 </Link>

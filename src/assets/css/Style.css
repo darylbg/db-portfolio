@@ -485,6 +485,11 @@ nav {
 }
 
 /* footer */
+
+.footer {
+    margin: 50px 0 50px 0;
+}
+
 .footer-icons,
 .footer-text {
     display: flex;
@@ -513,6 +518,10 @@ nav {
 .footer-text p a {
     text-decoration: none;
     color: var(--green);
+}
+
+.footer-text p a:hover {
+    border-bottom: 1px solid var(--green);
 }
   
 /* all media queries */
