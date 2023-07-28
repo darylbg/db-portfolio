@@ -26,7 +26,7 @@ function Home() {
 
   return (
     <>
-    <div className="row home">
+    <div className="row home"  id="home">
       <div className="col-sm-12 col-md-5 home-1">
         <div className="home-image">
           <img src={ProfileImg} alt="profile image"></img>

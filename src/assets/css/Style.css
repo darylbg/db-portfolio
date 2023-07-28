@@ -42,6 +42,32 @@ body {
 a {
   cursor: pointer !important;
 }
+
+/* back to top arrow */
+
+.back-to-top {
+    position: fixed;
+    bottom: 25px;
+    right: 25px;
+    background-color: transparent;
+    border: none;
+    z-index: 500;
+}
+
+.back-to-top:hover,
+.back-to-top:focus,
+.back-to-top:active {
+    background-color: transparent !important;
+}
+
+.back-to-top svg {
+    color: var(--lightest-slate);
+}
+
+.back-to-top:hover > svg {
+    color: var(--green);
+}
+
 /* navbar */
 
 .nav-container {
@@ -522,14 +548,18 @@ nav {
   justify-content: center;
 }
 
+.footer-icons ul {
+    height: fit-content;
+}
+
 .footer-icons ul a {
   background-color: var(--dark-navy);
   border: none;
-  color: var(--green);
+  color: var(--lightest-slate);
 }
 
 .footer-icons ul a:hover {
-  transform: translateY(-5px);
+  color: var(--green);
 }
 
 .footer-icons ul a i {
@@ -538,7 +568,7 @@ nav {
 
 .footer-text p {
   color: var(--light-slate);
-  max-width: 60%;
+  max-width: 80%;
 }
 
 .footer-text p a {
@@ -660,6 +690,13 @@ nav {
   }
 }
 
+
+@media only screen and (max-width: 1000px) {
+	.footer-text p {
+        max-width: 100%;
+    }
+}
+
 @media screen and (max-width: 768px) {
   .email {
     visibility: hidden;
@@ -696,3 +733,4 @@ nav {
     font-size: 6.5vw;
   }
 }
+

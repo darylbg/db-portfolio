@@ -15,7 +15,6 @@ function ProjectComponent({
   codeLink,
 }) {
   const width = window.innerWidth;
-  console.log(width);
 
   return (
     <div className="card mb-3 project-card">
