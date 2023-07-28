@@ -4,15 +4,21 @@ import '../assets/css/Style.css';
 
 function About() {
     const languages = [
-        {name: 'HTML', description: 'html5-plain'},
-        {name: 'CSS', description: 'css3-plain'},
-        {name: 'Javascript', description: 'javascript-plain'},
-        {name: 'Node', description: 'nodejs-plain'},
-        {name: 'Mysql', description: 'mysql-plain'},
-        {name: 'Mongodb', description: 'mongodb-plain'},
-        {name: 'React', description: 'react-plain'},
-        {name: 'Jquery', description: 'jquery-plain'},
-        {name: 'Github', description: 'github-original'}
+        {name: 'HTML', description: 'html5-plain', link: 'https://html.com/'},
+        {name: 'CSS', description: 'css3-plain', link: 'https://www.w3.org/Style/CSS/Overview.en.html'},
+        {name: 'Javascript', description: 'javascript-plain', link: 'https://www.javascript.com/'},
+        {name: 'React', description: 'react-plain', link: 'https://react.dev/'},
+        {name: 'Jquery', description: 'jquery-plain', link: 'https://jquery.com/'},
+        {name: 'Bootstrap', description: 'bootstrap-plain', link: 'https://www.mysql.com/'},
+        {name: 'Node js', description: 'nodejs-plain', link: 'https://nodejs.org/en'},
+        {name: 'express js', description: 'express-original', link: 'https://expressjs.com/'},
+        {name: 'Mysql', description: 'mysql-plain', link: 'https://www.mysql.com/'},
+        {name: 'Mongodb', description: 'mongodb-plain', link: 'https://www.mongodb.com/'},
+        {name: 'redux', description: 'redux-plain', link: 'https://redux.js.org/'},
+        {name: 'graph ql', description: 'graphql-plain', link: 'https://graphql.org/'},      
+        {name: 'Github', description: 'github-original', link: 'https://github.com/'},
+        {name: 'Git', description: 'git-plain', link: 'https://git-scm.com/'},
+        {name: 'Heroku', description: 'heroku-plain', link: 'https://www.heroku.com/'},
     ]
 
     return (
@@ -23,31 +29,18 @@ function About() {
         <div className="col-0 col-lg-3"></div>
         <div className="col-12 col-lg-6 about-div text-center">
             <p className="about-text">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-                Proin posuere, nisi id faucibus luctus, sem odio laoreet 
-                dui, non dapibus justo dui sed nunc. Nullam eu justo id 
-                lectus pharetra lobortis. Pellentesque tincidunt mi sed 
-                justo facilisis fringilla. Vestibulum efficitur justo sed 
-                turpis lacinia, non volutpat sapien bibendum. Aenean sed 
-                ipsum nec metus facilisis finibus. Nullam vel massa vel 
-                ex sagittis dapibus vitae in eros. Aliquam erat volutpat. 
-                Fusce mollis enim a dui posuere ullamcorper. Aliquam rutrum, 
-                lectus vitae consectetur tristique, justo lacus tempus orci, 
-                at fermentum nisi dolor at nisi. Etiam at tellus at tellus 
-                mattis aliquet. Donec lobortis semper elit eu semper. Sed 
-                efficitur dui sit amet eros feugiat, non dapibus tellus 
-                aliquam. Duis et ante non tortor rutrum rhoncus. Vivamus 
-                rutrum lacinia nisi at tempor. Sed sagittis est et sem 
-                feugiat faucibus.
+            I am a  highly motivated Full Stack Web Developer with a passion for creating user-friendly and innovative web
+applications. Skilled in both front-end and back-end development. Seeking a challenging position where I
+can contribute my technical skills and creativity to develop cutting-edge web solutions.
             </p>
         </div>
         <div className="col-0 col-lg-3"></div>
-        <h4 className="col-12 text-center devicons-header">// My Techstack
+        <h4 className="row text-center devicons-header">// Techstack
         </h4>
         <div className="col-0 col-lg-3"></div>
         <div className="row col-12 col-lg-6 text-center devicon-row">
             {languages.map((language, index) => (
-                <DevIcons key={index} name={language.name} description={language.description} />
+                <DevIcons key={index} name={language.name} description={language.description} link={language.link} />
             ))}
         </div>
         <div className="col-0 col-lg-3"></div>

@@ -8,7 +8,7 @@ function Experience() {
                 <h3 className="section-title">03.<span> Experience ----------------</span></h3>
             </div>
             <div className="row education-div">
-              <h4 className="col-12">// Education</h4>
+              <h4 className="col-12 education-title">// Education</h4>
               <div className="col-12 education-wrapper">
                 <ul className="list-group">
                     <li className="list-group-item">
@@ -16,7 +16,7 @@ function Experience() {
                       <path d="M13.5 3a.5.5 0 0 1 .5.5V11H2V3.5a.5.5 0 0 1 .5-.5h11zm-11-1A1.5 1.5 0 0 0 1 3.5V12h14V3.5A1.5 1.5 0 0 0 13.5 2h-11zM0 12.5h16a1.5 1.5 0 0 1-1.5 1.5h-13A1.5 1.5 0 0 1 0 12.5z"/>
                     </svg>
                       <h5>University of Birmingham Bootcamp</h5>
-                      <span>Jan 2023 - July 2023</span>
+                      <span className="education-dates">Jan 2023 - July 2023</span>
                       <span>Full Stack Web Development Bootcamp.</span>
                     </li>
                     <li className="list-group-item">
@@ -25,14 +25,14 @@ function Experience() {
                       <path d="M4.176 9.032a.5.5 0 0 0-.656.327l-.5 1.7a.5.5 0 0 0 .294.605l4.5 1.8a.5.5 0 0 0 .372 0l4.5-1.8a.5.5 0 0 0 .294-.605l-.5-1.7a.5.5 0 0 0-.656-.327L8 10.466 4.176 9.032Zm-.068 1.873.22-.748 3.496 1.311a.5.5 0 0 0 .352 0l3.496-1.311.22.748L8 12.46l-3.892-1.556Z"/>
                     </svg>
                     <h5>The Mount Academy</h5>
-                      <span>Sept 2013 - June 2017</span>
+                      <span className="education-dates">Sept 2013 - June 2017</span>
                       <span>Graduated with a High School Diploma. And a 3.77 GPA</span>
                     </li>
                 </ul>
                 </div>
             </div>
             <div className="row work-div">
-              <h4 className="col-12">// Work History</h4>
+              <h4 className="col-12 work-title">// Work History</h4>
               <div className="col-12 work-wrapper">
                 <div className="d-flex align-items-start">
                     <div className="work-tabs nav flex-column nav-pills me-3" id="v-pills-tab" role="tablist" aria-orientation="vertical" style={{marginRight: '0 !important'}}>

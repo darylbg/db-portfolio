@@ -1,4 +1,5 @@
 import React from "react";
+import { Menu } from "react-feather";
 import { Link } from "react-router-dom";
 import '../assets/css/Style.css';
 
@@ -25,7 +26,7 @@ function Navbar() {
             {/* <a className="navbar-brand" href="#navbar">Daryl</a> */}
             <div className="nav-flex-fill flex-fill"></div>
             <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-              <span className=""><i data-feather="menu" className="menu-toggle-icon"></i></span>
+              <span className=""><Menu /></span>
             </button>
             <div className="collapse navbar-collapse" id="navbarSupportedContent">
               <div className="nav-flex-fill flex-fill"></div>

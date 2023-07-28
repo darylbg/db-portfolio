@@ -2,6 +2,8 @@ import React from "react";
 import { Link } from "react-router-dom";
 import { GitHub, Mail, Linkedin, FileText } from "react-feather";
 import "../assets/css/Style.css";
+import Resume from '../assets/images/01DarylBloughResume.pdf'
+
 
 function Footer() {
   return (
@@ -17,9 +19,9 @@ function Footer() {
           <Link to='mailto: darylxcuf@gmail.com' className="list-group-item">
             <Mail />
           </Link>
-          <Link to="/" className="list-group-item">
+          <a href={Resume} rel="noopener noreferrer" target="_blank"  className="list-group-item">
             <FileText />
-          </Link>
+          </a>
         </ul>
       </div>
       <div className="col-12 col-md-6 order-first order-md-last footer-text">

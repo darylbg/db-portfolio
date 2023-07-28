@@ -109,6 +109,10 @@ nav {
   color: var(--blue);
 }
 
+.navbar-toggler svg {
+    color: var(--green);
+}
+
 .navbar-toggler:focus {
   box-shadow: none !important;
 }
@@ -394,6 +398,7 @@ nav {
 
 .about-text {
   color: var(--slate);
+  font-size: 1.2em;
 }
 
 .devicon-row {
@@ -401,11 +406,17 @@ nav {
 }
 
 .devicons-header {
-  color: var(--slate);
+  color: var(--dark-slate);
   margin: 100px 0 30px 0;
 }
 
 /* experience section */
+
+.work-title,
+.education-title {
+    color: var(--dark-slate);
+    padding-top: 25px;
+}
 
 .work-tabs button {
   font-family: var(--font-secondary);
@@ -473,13 +484,20 @@ nav {
   color: var(--lightest-slate);
   padding-left: 20px;
   display: block;
+  margin-bottom: 2px;
 }
 
 .education-div li span {
   color: var(--light-slate);
   padding-left: 20px;
   display: block;
+  padding-bottom: 10px;
 }
+
+.education-dates {
+    font-family: var(--font-secondary);
+    font-size: 1.25em;
+  }
 
 /* projects */
 
@@ -594,7 +612,7 @@ nav {
   .home-bio-div {
     padding-right: 17%;
   }
-  
+
   .home {
     padding-top: 30%;
   }

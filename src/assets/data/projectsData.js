@@ -82,7 +82,7 @@ const projects = [
     title: "Portfolio",
     description:
       "This portfolio was designed and built by myself in React. This website was built in React and utilizes Bootstrap as a framework",
-    img: "ReadSky.PNG",
+    img: "portfolio.PNG",
     liveLink: "https://darylbg.github.io/db-portfolio/",
     codeLink: "https://github.com/darylbg/db-portfolio",
     pills: [
@@ -92,7 +92,7 @@ const projects = [
       },
       {
         name: "bootstrap",
-        link: "https://getbootstrap.com/",
+        link: "https://www.mysql.com/",
       },
       {
         name: "NodeJS",
