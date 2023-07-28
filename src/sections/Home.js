@@ -3,6 +3,7 @@ import "../assets/css/Style.css";
 import { Link } from "react-router-dom";
 import { GitHub, Mail, Linkedin, FileText } from "react-feather";
 import ProfileImg from "../assets/images/profile.jpeg";
+import Resume from '../assets/images/01DarylBloughResume.pdf'
 
 function Home() {
   const [isNameVisible, setIsNameVisible] = useState(false);
@@ -52,10 +53,10 @@ function Home() {
           <div className="home-icons" id="home">
             <ul className="home-icons-ul">
               <li>
-                <Link to="/" className="home-resume">
+                <a href={Resume} rel="noopener noreferrer" target="_blank" className="home-resume">
                   <FileText />
                   <span className="home-icon-resume">Resume</span>
-                </Link>
+                </a>
               </li>
               <li>
                 <Link to="https://github.com/darylbg" target="_blank" className="home-icon-hide">
