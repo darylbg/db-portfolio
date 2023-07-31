@@ -23,7 +23,7 @@ function Footer() {
           </Link>
           </OverlayTrigger>
           <OverlayTrigger
-            key="top"
+            key="top1"
             placement="top"
             overlay={<Tooltip id="tooltip-top">Linkedin</Tooltip>}
           >
@@ -32,7 +32,7 @@ function Footer() {
           </Link>
           </OverlayTrigger>
           <OverlayTrigger
-            key="top"
+            key="top2"
             placement="top"
             overlay={<Tooltip id="tooltip-top">Email</Tooltip>}
           >
@@ -41,7 +41,7 @@ function Footer() {
           </Link>
           </OverlayTrigger>
           <OverlayTrigger
-            key="top"
+            key="top3"
             placement="top"
             overlay={<Tooltip id="tooltip-top">Resume</Tooltip>}
           >

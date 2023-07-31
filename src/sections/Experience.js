@@ -101,10 +101,10 @@ function Experience() {
                     Implemented and maintained robust security protocols to
                     ensure the safety and confidentiality of sensitive
                     information.
-                    <li>
-                      Contributed to various projects, showcasing strong
-                      attention to detail and organizational skills.
-                    </li>
+                  </li>
+                  <li>
+                    Contributed to various projects, showcasing strong attention
+                    to detail and organizational skills.
                   </li>
                   <li>
                     Assisted in managing administrative tasks, including
@@ -129,18 +129,18 @@ function Experience() {
                   <li>
                     Provided exceptional customer service, addressing inquiries,
                     resolving issues, and ensuring customer satisfaction.
-                    <li>
-                      Managed a high volume of incoming calls, demonstrating
-                      excellent communication and problem-solving skills.
-                    </li>
-                    <li>
-                      Documented customer interactions and feedback, assisting
-                      in the development of improved service strategies.
-                    </li>
-                    <li>
-                      Collaborated with cross-functional teams to address
-                      customer concerns and improve overall customer experience.
-                    </li>
+                  </li>
+                  <li>
+                    Managed a high volume of incoming calls, demonstrating
+                    excellent communication and problem-solving skills.
+                  </li>
+                  <li>
+                    Documented customer interactions and feedback, assisting in
+                    the development of improved service strategies.
+                  </li>
+                  <li>
+                    Collaborated with cross-functional teams to address customer
+                    concerns and improve overall customer experience.
                   </li>
                 </ul>
               </div>
