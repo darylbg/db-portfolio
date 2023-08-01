@@ -79,6 +79,28 @@ const projects = [
     ],
   },
   {
+    title: "Weather Forecast",
+    description:
+      "Weather forecast app built with Javascript. Featuring worldwide city search, 5 day forecast and saved search history.",
+    img: "weatherforecast.PNG",
+    liveLink: "https://darylbg.github.io/weather-app/",
+    codeLink: "https://github.com/darylbg/weather-app",
+    pills: [
+      {
+        name: "Javascript",
+        link: "https://www.javascript.com/",
+      },
+      {
+        name: "bootstrap",
+        link: "https://getbootstrap.com/",
+      },
+      {
+        name: "Open-weather api",
+        link: "https://openweathermap.org/api",
+      },
+    ],
+  },
+  {
     title: "Portfolio",
     description:
       "This portfolio was designed and built by myself in React. This website was built in React and utilizes Bootstrap as a framework",
@@ -92,7 +114,7 @@ const projects = [
       },
       {
         name: "bootstrap",
-        link: "https://www.mysql.com/",
+        link: "https://getbootstrap.com/",
       },
       {
         name: "NodeJS",
