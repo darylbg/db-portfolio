@@ -27,12 +27,12 @@ function Home() {
   return (
     <>
     <div className="row home"  id="home">
-      <div className="col-sm-12 col-md-5 home-1">
+      <div className="col-sm-12 col-md-5 col-lg-4 home-1">
         <div className="home-image">
           <img src={ProfileImg} alt="profile image"></img>
         </div>
       </div>
-      <div className="col-sm-12 col-md-7 home-2">
+      <div className="col-sm-12 col-md-7 col-lg-8 home-2">
         <div className="home-2-wrapper">
           <div className="home-intro-div">
             <h6>Hi my name is</h6>
