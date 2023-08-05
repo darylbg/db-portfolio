@@ -9,20 +9,20 @@ function Home() {
   const [isNameVisible, setIsNameVisible] = useState(false);
   const [isSubtitleVisible, setIsSubtitleVisible] = useState(false);
 
-  useEffect(() => {
-    const nameTimer = setTimeout(() => {
-      setIsNameVisible(true);
-    }, 1700);
+  // useEffect(() => {
+  //   const nameTimer = setTimeout(() => {
+  //     setIsNameVisible(true);
+  //   }, 1700);
 
-    const subtitleTimer = setTimeout(() => {
-      setIsSubtitleVisible(true);
-    }, 3500);
+  //   const subtitleTimer = setTimeout(() => {
+  //     setIsSubtitleVisible(true);
+  //   }, 3500);
 
-    return () => {
-      clearTimeout(nameTimer);
-      clearTimeout(subtitleTimer);
-    };
-  }, []);
+  //   return () => {
+  //     clearTimeout(nameTimer);
+  //     clearTimeout(subtitleTimer);
+  //   };
+  // }, []);
 
   return (
     <>
@@ -38,14 +38,16 @@ function Home() {
             <h6>Hi my name is</h6>
           </div>
           <div className="home-name-div">
-            <h1 id="home-name" className={isNameVisible ? "visible" : ""}>
+            <h1 id="home-name" 
+            // className={isNameVisible ? "visible" : ""}
+            >
               Daryl Blough
             </h1>
           </div>
           <div className="home-subtitle-div">
             <h3
               id="home-subtitle"
-              className={isSubtitleVisible ? "visible" : ""}
+              // className={isSubtitleVisible ? "visible" : ""}
             >
               I build stuff for the web.
             </h3>

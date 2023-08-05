@@ -209,7 +209,7 @@ nav {
   white-space: nowrap;
   /* border-right: 1px solid var(--lightest-slate); */
   overflow: hidden;
-  visibility: hidden;
+  /* visibility: hidden; */
   animation: typing 1.7s steps(12), cursor-alt-2 530ms step-end 3;
   animation-delay: 1.5s;
 }
@@ -217,14 +217,14 @@ nav {
 .home-subtitle-div h3 {
   width: 100%;
   white-space: nowrap;
-  border-right: 1px solid var(--slate);
+  /* border-right: 1px solid var(--slate); */
   overflow: hidden;
-  visibility: hidden;
+  /* visibility: hidden; */
   animation: typing 2.8s steps(26), cursor 530ms step-end infinite;
   animation-delay: 3s;
 }
 
-.visible {
+/* .visible {
   visibility: visible;
 }
 
@@ -265,7 +265,7 @@ nav {
   to {
     width: 100%;
   }
-}
+} */
 
 .home-name-div h1 {
   color: var(--lightest-slate);
