@@ -651,7 +651,7 @@ nav {
   }
 
   .home {
-    padding-top: 30%;
+    padding-top: 45%;
   }
 
   .home-image,
@@ -672,6 +672,11 @@ nav {
     justify-content: flex-end !important;
   }
 
+  .home {
+    padding-top: 35%;
+  }
+
+
   .home-image,
   .svg-image,
   .home-1 ul {
@@ -679,9 +684,9 @@ nav {
   }
 }
 
-@media screen and (min-width: 1000px) {
+@media screen and (min-width: 1200px) {
   .home {
-    padding-top: 15%;
+    padding-top: 30%;
   }
 
   .home-icons-ul {
@@ -704,6 +709,12 @@ nav {
   .education-div,
   .work-div {
     min-width: 60%;
+  }
+}
+
+@media screen and (min-width: 1400px) {
+  .home {
+    padding-top: 20%;
   }
 }
 
