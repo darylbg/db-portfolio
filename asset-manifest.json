@@ -1,24 +1,24 @@
 {
   "files": {
-    "main.css": "/static/css/main.ab51fb32.css",
-    "main.js": "/static/js/main.dcfea2b2.js",
-    "static/media/Inter-VariableFont_slnt,wght.ttf": "/static/media/Inter-VariableFont_slnt,wght.afdb8a07907da21452bf.ttf",
-    "static/media/airbnp.PNG": "/static/media/airbnp.6790a8a15bc35f40d9ac.PNG",
-    "static/media/weatherforecast.PNG": "/static/media/weatherforecast.8f856feb2bac359fd277.PNG",
-    "static/media/screenshot4.PNG": "/static/media/screenshot4.c084351d5623d780d9ae.PNG",
-    "static/media/portfolio.PNG": "/static/media/portfolio.0bd77cf4896b97050ca3.PNG",
-    "static/media/screenshot2.PNG": "/static/media/screenshot2.9ed89600ebc9a7e7ccf9.PNG",
-    "static/media/01DarylBloughResume.pdf": "/static/media/01DarylBloughResume.46aeb46d38b8cea666d2.pdf",
-    "static/media/ReadSky.PNG": "/static/media/ReadSky.3910b066a8908d08741c.PNG",
-    "static/media/screenshot3.PNG": "/static/media/screenshot3.3bbc4feef1ea16bbde35.PNG",
-    "static/media/profile.jpeg": "/static/media/profile.dcddfbe700d322ce7d44.jpeg",
-    "static/media/screenshot1.PNG": "/static/media/screenshot1.85150955edbff6742217.PNG",
-    "index.html": "/index.html",
-    "main.ab51fb32.css.map": "/static/css/main.ab51fb32.css.map",
-    "main.dcfea2b2.js.map": "/static/js/main.dcfea2b2.js.map"
+    "main.css": "/db-portfolio/static/css/main.853e72b7.css",
+    "main.js": "/db-portfolio/static/js/main.849ff9d5.js",
+    "static/media/Inter-VariableFont_slnt,wght.ttf": "/db-portfolio/static/media/Inter-VariableFont_slnt,wght.afdb8a07907da21452bf.ttf",
+    "static/media/airbnp.PNG": "/db-portfolio/static/media/airbnp.6790a8a15bc35f40d9ac.PNG",
+    "static/media/weatherforecast.PNG": "/db-portfolio/static/media/weatherforecast.8f856feb2bac359fd277.PNG",
+    "static/media/screenshot4.PNG": "/db-portfolio/static/media/screenshot4.c084351d5623d780d9ae.PNG",
+    "static/media/portfolio.PNG": "/db-portfolio/static/media/portfolio.0bd77cf4896b97050ca3.PNG",
+    "static/media/screenshot2.PNG": "/db-portfolio/static/media/screenshot2.9ed89600ebc9a7e7ccf9.PNG",
+    "static/media/01DarylBloughResume.pdf": "/db-portfolio/static/media/01DarylBloughResume.46aeb46d38b8cea666d2.pdf",
+    "static/media/ReadSky.PNG": "/db-portfolio/static/media/ReadSky.3910b066a8908d08741c.PNG",
+    "static/media/screenshot3.PNG": "/db-portfolio/static/media/screenshot3.3bbc4feef1ea16bbde35.PNG",
+    "static/media/profile.jpeg": "/db-portfolio/static/media/profile.dcddfbe700d322ce7d44.jpeg",
+    "static/media/screenshot1.PNG": "/db-portfolio/static/media/screenshot1.85150955edbff6742217.PNG",
+    "index.html": "/db-portfolio/index.html",
+    "main.853e72b7.css.map": "/db-portfolio/static/css/main.853e72b7.css.map",
+    "main.849ff9d5.js.map": "/db-portfolio/static/js/main.849ff9d5.js.map"
   },
   "entrypoints": [
-    "static/css/main.ab51fb32.css",
-    "static/js/main.dcfea2b2.js"
+    "static/css/main.853e72b7.css",
+    "static/js/main.849ff9d5.js"
   ]
 }
