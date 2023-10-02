@@ -3,7 +3,7 @@ import "../assets/css/Style.css";
 import { Link } from "react-router-dom";
 import { GitHub, Mail, Linkedin, FileText } from "react-feather";
 import ProfileImg from "../assets/images/profile.jpeg";
-import Resume from '../assets/images/01DarylBloughResume.pdf'
+import Resume from '../assets/images/DarylBloughResume.pdf'
 
 function Home() {
   const [isNameVisible, setIsNameVisible] = useState(false);

@@ -2,7 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 import { GitHub, Mail, Linkedin, FileText } from "react-feather";
 import "../assets/css/Style.css";
-import Resume from '../assets/images/01DarylBloughResume.pdf';
+import Resume from '../assets/images/DarylBloughResume.pdf';
 import OverlayTrigger from "react-bootstrap/OverlayTrigger";
 import Tooltip from "react-bootstrap/Tooltip";
 
