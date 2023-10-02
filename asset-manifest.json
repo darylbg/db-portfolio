@@ -1,7 +1,8 @@
 {
   "files": {
     "main.css": "/db-portfolio/static/css/main.853e72b7.css",
-    "main.js": "/db-portfolio/static/js/main.849ff9d5.js",
+    "main.js": "/db-portfolio/static/js/main.51d8fda8.js",
+    "static/media/DarylBloughResume.pdf": "/db-portfolio/static/media/DarylBloughResume.a9cec72c55b4d047a36f.pdf",
     "static/media/Inter-VariableFont_slnt,wght.ttf": "/db-portfolio/static/media/Inter-VariableFont_slnt,wght.afdb8a07907da21452bf.ttf",
     "static/media/airbnp.PNG": "/db-portfolio/static/media/airbnp.6790a8a15bc35f40d9ac.PNG",
     "static/media/weatherforecast.PNG": "/db-portfolio/static/media/weatherforecast.8f856feb2bac359fd277.PNG",
@@ -15,10 +16,10 @@
     "static/media/screenshot1.PNG": "/db-portfolio/static/media/screenshot1.85150955edbff6742217.PNG",
     "index.html": "/db-portfolio/index.html",
     "main.853e72b7.css.map": "/db-portfolio/static/css/main.853e72b7.css.map",
-    "main.849ff9d5.js.map": "/db-portfolio/static/js/main.849ff9d5.js.map"
+    "main.51d8fda8.js.map": "/db-portfolio/static/js/main.51d8fda8.js.map"
   },
   "entrypoints": [
     "static/css/main.853e72b7.css",
-    "static/js/main.849ff9d5.js"
+    "static/js/main.51d8fda8.js"
   ]
 }
