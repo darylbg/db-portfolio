@@ -1,11 +1,11 @@
 {
   "files": {
     "main.css": "/db-portfolio/static/css/main.70499f5b.css",
-    "main.js": "/db-portfolio/static/js/main.290cd990.js",
+    "main.js": "/db-portfolio/static/js/main.9b17cebe.js",
     "static/media/DarylBloughResume.pdf": "/db-portfolio/static/media/DarylBloughResume.39ab5b4e42eb6aefb9fe.pdf",
+    "static/media/airbnp.PNG": "/db-portfolio/static/media/airbnp.3e32200a9b080b6c2632.PNG",
     "static/media/Inter-VariableFont_slnt,wght.ttf": "/db-portfolio/static/media/Inter-VariableFont_slnt,wght.afdb8a07907da21452bf.ttf",
     "static/media/zoomtube.png": "/db-portfolio/static/media/zoomtube.15b6ea700bdf05d1b2f4.png",
-    "static/media/airbnp.PNG": "/db-portfolio/static/media/airbnp.6790a8a15bc35f40d9ac.PNG",
     "static/media/weatherforecast.PNG": "/db-portfolio/static/media/weatherforecast.8f856feb2bac359fd277.PNG",
     "static/media/screenshot4.PNG": "/db-portfolio/static/media/screenshot4.c084351d5623d780d9ae.PNG",
     "static/media/portfolio.PNG": "/db-portfolio/static/media/portfolio.0bd77cf4896b97050ca3.PNG",
@@ -17,10 +17,10 @@
     "static/media/screenshot1.PNG": "/db-portfolio/static/media/screenshot1.85150955edbff6742217.PNG",
     "index.html": "/db-portfolio/index.html",
     "main.70499f5b.css.map": "/db-portfolio/static/css/main.70499f5b.css.map",
-    "main.290cd990.js.map": "/db-portfolio/static/js/main.290cd990.js.map"
+    "main.9b17cebe.js.map": "/db-portfolio/static/js/main.9b17cebe.js.map"
   },
   "entrypoints": [
     "static/css/main.70499f5b.css",
-    "static/js/main.290cd990.js"
+    "static/js/main.9b17cebe.js"
   ]
 }

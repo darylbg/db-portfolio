@@ -66,6 +66,18 @@ function Experience() {
                 className="nav-link text-start active"
                 id="v-pills-home-tab"
                 data-bs-toggle="pill"
+                data-bs-target="#v-pills-nova"
+                type="button"
+                role="tab"
+                aria-controls="v-pills-nova"
+                aria-selected="true"
+              >
+                Nova International Group
+              </button>
+              <button
+                className="nav-link text-start"
+                id="v-pills-home-tab"
+                data-bs-toggle="pill"
                 data-bs-target="#v-pills-home"
                 type="button"
                 role="tab"
@@ -74,28 +86,63 @@ function Experience() {
               >
                 Pakistan Consulate
               </button>
-              <button
-                className="nav-link text-start"
-                id="v-pills-profile-tab"
-                data-bs-toggle="pill"
-                data-bs-target="#v-pills-profile"
-                type="button"
-                role="tab"
-                aria-controls="v-pills-profile"
-                aria-selected="false"
-              >
-                Sitel
-              </button>
             </div>
             <div className="tab-content" id="v-pills-tabContent">
               <div
                 className="tab-pane fade show active"
+                id="v-pills-nova"
+                role="tabpanel"
+                aria-labelledby="v-pills-nova-tab"
+              >
+                <h3>Web Developer Assistant</h3>
+                <h5>2023 - Current</h5>
+                <ul>
+                  <li>
+                    Designed, developed, and maintained a children's charity
+                    website using Figma and WordPress.
+                  </li>
+                  <li>
+                    Collaborated with the product design, product management,
+                    and software engineering teams to improve user experience by
+                    87%, including the implementation of microinteractions and
+                    parallax scrolling.
+                  </li>
+                  <li>
+                    Implemented 11 uniquely identified trends to create an
+                    optimal website, based on research and analysis of data
+                    reports.
+                  </li>
+                  <li>
+                    Built a scalable system capable of withstanding more than a
+                    1000% increase in traffic, and improved the speed of the
+                    website by up to 80% using the WP Rocket plugin.
+                  </li>
+                  <li>
+                    Used the Yoast SEO plugin to optimize WordPress websites for
+                    search engines, including features such as keyword research,
+                    title tag and meta description optimization, and content
+                    analysis.
+                  </li>
+                  <li>
+                    Wrote custom CSS to style the WordPress site, resulting in a
+                    more visually appealing and user-friendly experience.
+                  </li>
+                  <li>
+                    Teamed up with the development and management teams to
+                    create a system that improves the children's charity's
+                    ability to track their progress, measure their impact, and
+                    manage their website efficiently.
+                  </li>
+                </ul>
+              </div>
+              <div
+                className="tab-pane fade"
                 id="v-pills-home"
                 role="tabpanel"
                 aria-labelledby="v-pills-home-tab"
               >
                 <h3>Office Administrator</h3>
-                <h5>2020 - Current</h5>
+                <h5>2020 - 2023</h5>
                 <ul>
                   <li>
                     Implemented and maintained robust security protocols to
@@ -114,33 +161,6 @@ function Experience() {
                   <li>
                     Collaborated with team members to streamline office
                     operations and improve overall efficiency.{" "}
-                  </li>
-                </ul>
-              </div>
-              <div
-                className="tab-pane fade"
-                id="v-pills-profile"
-                role="tabpanel"
-                aria-labelledby="v-pills-profile-tab"
-              >
-                <h3>Sitel</h3>
-                <h5>2019 - 2020</h5>
-                <ul>
-                  <li>
-                    Provided exceptional customer service, addressing inquiries,
-                    resolving issues, and ensuring customer satisfaction.
-                  </li>
-                  <li>
-                    Managed a high volume of incoming calls, demonstrating
-                    excellent communication and problem-solving skills.
-                  </li>
-                  <li>
-                    Documented customer interactions and feedback, assisting in
-                    the development of improved service strategies.
-                  </li>
-                  <li>
-                    Collaborated with cross-functional teams to address customer
-                    concerns and improve overall customer experience.
                   </li>
                 </ul>
               </div>
