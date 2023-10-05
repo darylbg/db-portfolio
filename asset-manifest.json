@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/db-portfolio/static/css/main.70499f5b.css",
-    "main.js": "/db-portfolio/static/js/main.7f912bc8.js",
+    "main.css": "/db-portfolio/static/css/main.ed9dcfbd.css",
+    "main.js": "/db-portfolio/static/js/main.068b85c5.js",
     "static/media/DarylBloughResume.pdf": "/db-portfolio/static/media/DarylBloughResume.39ab5b4e42eb6aefb9fe.pdf",
     "static/media/airbnp.PNG": "/db-portfolio/static/media/airbnp.3e32200a9b080b6c2632.PNG",
     "static/media/Inter-VariableFont_slnt,wght.ttf": "/db-portfolio/static/media/Inter-VariableFont_slnt,wght.afdb8a07907da21452bf.ttf",
@@ -16,11 +16,11 @@
     "static/media/profile.jpeg": "/db-portfolio/static/media/profile.dcddfbe700d322ce7d44.jpeg",
     "static/media/screenshot1.PNG": "/db-portfolio/static/media/screenshot1.85150955edbff6742217.PNG",
     "index.html": "/db-portfolio/index.html",
-    "main.70499f5b.css.map": "/db-portfolio/static/css/main.70499f5b.css.map",
-    "main.7f912bc8.js.map": "/db-portfolio/static/js/main.7f912bc8.js.map"
+    "main.ed9dcfbd.css.map": "/db-portfolio/static/css/main.ed9dcfbd.css.map",
+    "main.068b85c5.js.map": "/db-portfolio/static/js/main.068b85c5.js.map"
   },
   "entrypoints": [
-    "static/css/main.70499f5b.css",
-    "static/js/main.7f912bc8.js"
+    "static/css/main.ed9dcfbd.css",
+    "static/js/main.068b85c5.js"
   ]
 }
