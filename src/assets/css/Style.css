@@ -550,6 +550,12 @@ nav {
 
 #contact {
   margin-bottom: 150px;
+  justify-content: center;
+}
+
+.contact-form-header {
+  color: var(--light-slate);
+  text-align: left;
 }
 
 .contact-form-row {
@@ -564,35 +570,47 @@ nav {
 .contact-form-row form div label {
   float: left;
   font-size: 15px;
+  color: var(--dark-slate);
 }
 
 .contact-form-row form div {
   margin: 30px 0;
 }
 
-.contact-form-row form div input {
+.contact-form-row form .contact-form-input input {
   height: 40px;
 }
 
-.contact-form-row form div textarea  {
-  height: 100px;
+.contact-form-row form .contact-form-textarea textarea  {
+  height: 150px;
 }
 
-.contact-form-row form div input,
-.contact-form-row form div textarea {
+.contact-form-row form .contact-form-input input,
+.contact-form-row form .contact-form-textarea textarea {
   width: 100%;
   background-color: var(--dark-navy);
   border: 1px var(--dark-slate) solid;
   color: var(--lightest-slate);
+  padding: 0 5px;
 }
 
-.contact-form-submit-btn {
-  border: 1px var(--blue) solid;
+.contact-form-row form .contact-form-input input:active,
+.contact-form-row form .contact-form-textarea textarea:active {
+  border-radius: 0 !important;
+  border: 1px solid var(--lightest-slate);
 }
 
-.contact-form-submit-btn:hover {
+.contact-form-submit input {
+  width: 100%;
   background-color: var(--blue);
   color: var(--dark-navy);
+  border: 1px var(--blue) solid;
+  height: 40px;
+}
+
+.contact-form-submit input:hover {
+  background-color: var(--dark-navy);
+  color: var(--blue);
 }
 
 /* footer */

@@ -29,27 +29,27 @@ function Contact() {
         <h3 className="section-title">
           05.<span> Contact Me ----------------</span>
         </h3>
-        <h6>
-          Send me an email to connect or for any questions i'd love to hear from
-          you.
-        </h6>
       </div>
       <div className="row contact-form-row">
         <form ref={form} onSubmit={sendEmail}>
-          <div className="contact-form-name">
+        <h6 className="contact-form-header">
+          Send me an email to connect or for any questions i'd love to hear from
+          you.
+        </h6>
+          <div className="contact-form-input">
             <label>Name</label>
             <input type="text" name="user_name" />
           </div>
-          <div className="contact-form-email">
+          <div className="contact-form-input">
             <label>Email</label>
             <input type="email" name="user_email" />
           </div>
-          <div className="contact-form-message">
+          <div className="contact-form-textarea">
             <label>Message</label>
             <textarea name="message" />
           </div>
           <div className="contact-form-submit">
-            <input className="contact-form-submit-btn" type="submit" value="Send" />
+            <input type="submit" value="Send" />
           </div>
         </form>
       </div>
