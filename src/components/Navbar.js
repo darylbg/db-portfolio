@@ -73,6 +73,16 @@ function Navbar() {
                 </Link>
                 {/* <a className="nav-link" href="#projects"><span>04.</span> Projects</a> */}
               </li>
+              <li className="nav-item-5 nav-item">
+                <Link
+                  to="/contact"
+                  className="nav-link"
+                  onClick={handleScroll}
+                >
+                  <span>05.</span> Contact Me
+                </Link>
+                {/* <a className="nav-link" href="#projects"><span>04.</span> Projects</a> */}
+              </li>
             </ul>
           </div>
         </div>

@@ -10,6 +10,7 @@ import { ArrowUp } from "react-feather";
 import Button from "react-bootstrap/Button";
 import OverlayTrigger from "react-bootstrap/OverlayTrigger";
 import Tooltip from "react-bootstrap/Tooltip";
+import Contact from "./sections/Contact";
 
 function App() {
   const [isVisible, setIsVisible] = useState(false);
@@ -44,6 +45,7 @@ function App() {
         <About />
         <Experience />
         <Projects />
+        <Contact />
         <Footer />
         {isVisible && (
           <OverlayTrigger

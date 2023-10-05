@@ -99,13 +99,15 @@ nav {
 
 .nav-item-1,
 .nav-item-2,
-.nav-item-3 {
+.nav-item-3,
+.nav-item-4 {
   margin-right: 10px;
 }
 
 .nav-item-2,
 .nav-item-3,
-.nav-item-4 {
+.nav-item-4,
+.nav-item-5 {
   margin-left: 10px;
 }
 
@@ -117,7 +119,8 @@ nav {
 
 .nav-item-2 a,
 .nav-item-3 a,
-.nav-item-4 a {
+.nav-item-4 a,
+.nav-item-5 a {
   color: var(--light-slate) !important;
   /* font-family: 'Courier Prime', monospace; */
   font-family: var(--font-secondary);
@@ -541,6 +544,55 @@ nav {
 
 .projects-row {
   justify-content: center;
+}
+
+/* Contact me section */
+
+#contact {
+  margin-bottom: 150px;
+}
+
+.contact-form-row {
+  display: flex;
+  justify-content: center;
+}
+
+.contact-form-row form {
+  max-width: 500px;
+}
+
+.contact-form-row form div label {
+  float: left;
+  font-size: 15px;
+}
+
+.contact-form-row form div {
+  margin: 30px 0;
+}
+
+.contact-form-row form div input {
+  height: 40px;
+}
+
+.contact-form-row form div textarea  {
+  height: 100px;
+}
+
+.contact-form-row form div input,
+.contact-form-row form div textarea {
+  width: 100%;
+  background-color: var(--dark-navy);
+  border: 1px var(--dark-slate) solid;
+  color: var(--lightest-slate);
+}
+
+.contact-form-submit-btn {
+  border: 1px var(--blue) solid;
+}
+
+.contact-form-submit-btn:hover {
+  background-color: var(--blue);
+  color: var(--dark-navy);
 }
 
 /* footer */
