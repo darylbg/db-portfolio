@@ -613,6 +613,14 @@ nav {
   color: var(--blue);
 }
 
+.send-message {
+  height: 40px;
+}
+
+.send-message p {
+  color: var(--blue);
+}
+
 /* footer */
 
 .footer {

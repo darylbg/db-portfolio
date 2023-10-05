@@ -1,7 +1,21 @@
-import React, { useRef } from "react";
+import React, { useEffect, useRef, useState } from "react";
 import emailjs from "@emailjs/browser";
 
 function Contact() {
+  const [message, setMessage] = useState('');
+  const [showMessage, setShowMessage] = useState(false);
+
+  useEffect(() => {
+    if (showMessage) {
+      const messageReset = setTimeout(() => {
+        setMessage('');
+        setShowMessage(false);
+      }, 5000);
+
+      return () => clearTimeout(messageReset);
+    }
+  }, [showMessage]);
+
   const form = useRef();
 
   const service_key = process.env.REACT_APP_EMAIL_SERVICE_KEY;
@@ -13,10 +27,13 @@ function Contact() {
 
     emailjs.sendForm(service_key, template_key, form.current, public_key).then(
       (result) => {
-        console.log(result.text);
+        setMessage('Sent Successfully, thanks for the email! :)');
+        setShowMessage(true);
       },
       (error) => {
-        console.log(error.text);
+        console.log(error)
+        setMessage('Message did not send, Something went wrong. :(');
+        setShowMessage(true);
       }
     );
 
@@ -32,10 +49,10 @@ function Contact() {
       </div>
       <div className="row contact-form-row">
         <form ref={form} onSubmit={sendEmail}>
-        <h6 className="contact-form-header">
-          Send me an email to connect or for any questions i'd love to hear from
-          you.
-        </h6>
+          <h6 className="contact-form-header">
+            Send me an email to connect or for any questions I'd love to hear from
+            you.
+          </h6>
           <div className="contact-form-input">
             <label>Name</label>
             <input type="text" name="user_name" />
@@ -50,6 +67,9 @@ function Contact() {
           </div>
           <div className="contact-form-submit">
             <input type="submit" value="Send" />
+          </div>
+          <div className="send-message">
+            {showMessage && <p>{message}</p>}
           </div>
         </form>
       </div>
