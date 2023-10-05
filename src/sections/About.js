@@ -15,7 +15,7 @@ function About() {
       description: "javascript-plain",
       link: "https://www.javascript.com/",
     },
-    { name: "React", description: "react-plain", link: "https://react.dev/" },
+    { name: "React js", description: "react-plain", link: "https://react.dev/" },
     {
       name: "Jquery",
       description: "jquery-plain",
@@ -79,17 +79,19 @@ function About() {
       <div className="col-0 col-lg-3"></div>
       <div className="col-12 col-lg-6 about-div text-center">
         <p className="about-text">
-          I am a highly motivated Full Stack Web Developer with a passion for
-          creating user-friendly and innovative web applications. Skilled in
-          both front-end and back-end development. Seeking a challenging
-          position where I can contribute my technical skills and creativity to
-          develop cutting-edge web solutions.
+          I am a Full-Stack web developer with a strong foundation in front-end
+          and back-end technologies. Eager to learn and grow, I am always
+          looking for new opportunities to challenge myself and develop my
+          skills. Seeking a challenging position where I can contribute my
+          skills and enthusiasm to a team, and have a positive impact on the
+          company's success by developing innovative and user-friendly web
+          applications.
         </p>
       </div>
-      <div className="col-0 col-lg-3"></div>  
+      <div className="col-0 col-lg-3"></div>
       <div className="col-0 col-lg-3"></div>
       <div className="row col-12 col-lg-6 text-center devicon-row">
-      <h4 className="row text-center devicons-header">// Techstack</h4>
+        <h4 className="row text-center devicons-header">// Techstack</h4>
         {languages.map((language, index) => (
           <DevIcons
             key={index}

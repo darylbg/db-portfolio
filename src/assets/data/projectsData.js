@@ -17,7 +17,7 @@ const projects = [
         link: "https://expressjs.com/",
       },
       {
-        name: "React",
+        name: "React JS",
         link: "https://react.dev/",
       },
 
@@ -34,7 +34,7 @@ const projects = [
         link: "https://jwt.io/",
       },
       {
-        name: "MAPBOX",
+        name: "MAPBOX api",
         link: "https://www.mapbox.com/",
       },
     ],
@@ -48,7 +48,7 @@ const projects = [
     codeLink: "https://github.com/darylbg/zoomTube",
     pills: [
       {
-        name: "react",
+        name: "react js",
         link: "https://react.dev/",
       },
       {
@@ -56,8 +56,26 @@ const projects = [
         link: "https://getbootstrap.com/",
       },
       {
-        name: "Google YouTube API",
+        name: "YouTube API",
         link: "https://developers.google.com/youtube/v3",
+      },
+    ],
+  },
+  {
+    title: "Portfolio",
+    description:
+      "This portfolio was designed and built by myself in React. This website was built in React and utilizes Bootstrap as a framework",
+    img: "portfolio.PNG",
+    liveLink: "https://darylbg.github.io/db-portfolio/",
+    codeLink: "https://github.com/darylbg/db-portfolio",
+    pills: [
+      {
+        name: "react js",
+        link: "https://react.dev/",
+      },
+      {
+        name: "bootstrap",
+        link: "https://getbootstrap.com/",
       },
     ],
   },
@@ -92,24 +110,6 @@ const projects = [
       {
         name: "sequelize",
         link: "https://sequelize.org/",
-      },
-    ],
-  },
-  {
-    title: "Portfolio",
-    description:
-      "This portfolio was designed and built by myself in React. This website was built in React and utilizes Bootstrap as a framework",
-    img: "portfolio.PNG",
-    liveLink: "https://darylbg.github.io/db-portfolio/",
-    codeLink: "https://github.com/darylbg/db-portfolio",
-    pills: [
-      {
-        name: "react",
-        link: "https://react.dev/",
-      },
-      {
-        name: "bootstrap",
-        link: "https://getbootstrap.com/",
       },
     ],
   },

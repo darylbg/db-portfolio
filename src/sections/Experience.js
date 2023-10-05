@@ -24,12 +24,14 @@ function Experience() {
               >
                 <path d="M13.5 3a.5.5 0 0 1 .5.5V11H2V3.5a.5.5 0 0 1 .5-.5h11zm-11-1A1.5 1.5 0 0 0 1 3.5V12h14V3.5A1.5 1.5 0 0 0 13.5 2h-11zM0 12.5h16a1.5 1.5 0 0 1-1.5 1.5h-13A1.5 1.5 0 0 1 0 12.5z" />
               </svg>
-              <h5>University of Birmingham Bootcamp</h5>
-              <span className="education-dates">Jan 2023 - July 2023</span>
+              <h5>Full Stack Web Developement Bootcamp</h5>
+              <span className="education-dates">
+                University of Birmingham, UK / Jan 2023 - July 2023
+              </span>
               <span>
-                Intensive and comprehensive web development Bootcamp, covering
-                both front end and back end development. Graduated with a 96.15%
-                grade.
+                Comprehensive Web Development Bootcamp, covering both front end
+                and back end development. Graduated with a 96.15% grade.
+                Certificate available.
               </span>
             </li>
             <li className="list-group-item">
@@ -44,9 +46,11 @@ function Experience() {
                 <path d="M8.211 2.047a.5.5 0 0 0-.422 0l-7.5 3.5a.5.5 0 0 0 .025.917l7.5 3a.5.5 0 0 0 .372 0L14 7.14V13a1 1 0 0 0-1 1v2h3v-2a1 1 0 0 0-1-1V6.739l.686-.275a.5.5 0 0 0 .025-.917l-7.5-3.5ZM8 8.46 1.758 5.965 8 3.052l6.242 2.913L8 8.46Z" />
                 <path d="M4.176 9.032a.5.5 0 0 0-.656.327l-.5 1.7a.5.5 0 0 0 .294.605l4.5 1.8a.5.5 0 0 0 .372 0l4.5-1.8a.5.5 0 0 0 .294-.605l-.5-1.7a.5.5 0 0 0-.656-.327L8 10.466 4.176 9.032Zm-.068 1.873.22-.748 3.496 1.311a.5.5 0 0 0 .352 0l3.496-1.311.22.748L8 12.46l-3.892-1.556Z" />
               </svg>
-              <h5>The Mount Academy</h5>
-              <span className="education-dates">Sept 2013 - June 2017</span>
-              <span>Graduated with a High School Diploma. And a 3.77 GPA</span>
+              <h5>High School Diploma</h5>
+              <span className="education-dates">
+                The Mount Academy New York, USA / Sept 2013 - June 2017
+              </span>
+              <span>Graduated high school with a 3.78 GPA</span>
             </li>
           </ul>
         </div>
@@ -95,7 +99,7 @@ function Experience() {
                 aria-labelledby="v-pills-nova-tab"
               >
                 <h3>Web Developer Assistant</h3>
-                <h5>2023 - Current</h5>
+                <h5>Nova International Group, London UK / 2023 - Current</h5>
                 <ul>
                   <li>
                     Designed, developed, and maintained a children's charity
@@ -142,25 +146,32 @@ function Experience() {
                 aria-labelledby="v-pills-home-tab"
               >
                 <h3>Office Administrator</h3>
-                <h5>2020 - 2023</h5>
+                <h5>Pakistan Consulate, Birmingham UK / 2020 - 2023</h5>
                 <ul>
                   <li>
                     Implemented and maintained robust security protocols to
-                    ensure the safety and confidentiality of sensitive
-                    information.
+                    ensure the safety and confidentiality of sensitive data,
+                    including customer information, financial records, and
+                    intellectual property.
                   </li>
                   <li>
-                    Contributed to various projects, showcasing strong attention
-                    to detail and organizational skills.
+                    Assisted in the management of administrative tasks
+                    associated, such as document preparation, record keeping,
+                    and scheduling meetings.
                   </li>
                   <li>
-                    Assisted in managing administrative tasks, including
-                    document preparation, record keeping, and scheduling
-                    appointments.{" "}
+                    Collaborated with team members to streamline development
+                    workflows and improve overall efficiency.
                   </li>
                   <li>
-                    Collaborated with team members to streamline office
-                    operations and improve overall efficiency.{" "}
+                    Contributed to various software development projects by
+                    providing administrative support, managing tasks, and
+                    tracking progress.
+                  </li>
+                  <li>
+                    Demonstrated strong attention to detail and organizational
+                    skills, ensuring the accuracy and completeness of all
+                    deliverables.
                   </li>
                 </ul>
               </div>
