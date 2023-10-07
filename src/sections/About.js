@@ -62,11 +62,6 @@ function About() {
       link: "https://github.com/",
     },
     { name: "Git", description: "git-plain", link: "https://git-scm.com/" },
-    {
-      name: "Heroku",
-      description: "heroku-plain",
-      link: "https://www.heroku.com/",
-    },
   ];
 
   return (
