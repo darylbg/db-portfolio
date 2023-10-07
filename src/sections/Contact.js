@@ -16,8 +16,6 @@ function Contact() {
     emailError: "",
   });
 
-  console.log(formInputError);
-
   useEffect(() => {
     if (showMessage) {
       const messageReset = setTimeout(() => {
@@ -69,7 +67,7 @@ function Contact() {
           },
           (error) => {
             console.log(error);
-            setSendMessage("Message did not send, Something went wrong. :(");
+            setSendMessage("Please try again, something went wrong. :(");
             setShowMessage(true);
           }
         );

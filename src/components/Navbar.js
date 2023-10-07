@@ -11,7 +11,7 @@ function Navbar() {
 
     if (targetEl) {
       window.scrollTo({
-        top: targetEl.offsetTop,
+        top: targetEl.offsetTop - 20,
         behavior: "smooth",
       });
     }
