@@ -2,15 +2,28 @@ import React, { useEffect, useRef, useState } from "react";
 import emailjs from "@emailjs/browser";
 
 function Contact() {
-  const [message, setMessage] = useState('');
+  const [sendMessage, setSendMessage] = useState("");
   const [showMessage, setShowMessage] = useState(false);
+
+  const [formInput, setFormInput] = useState({
+    name: "",
+    email: "",
+    text: "",
+  });
+
+  const [formInputError, setFormInputError] = useState({
+    nameError: "",
+    emailError: "",
+  });
+
+  console.log(formInputError);
 
   useEffect(() => {
     if (showMessage) {
       const messageReset = setTimeout(() => {
-        setMessage('');
+        setSendMessage("");
         setShowMessage(false);
-      }, 5000);
+      }, 6000);
 
       return () => clearTimeout(messageReset);
     }
@@ -22,22 +35,47 @@ function Contact() {
   const template_key = process.env.REACT_APP_EMAIL_TEMPLATE_KEY;
   const public_key = process.env.REACT_APP_EMAIL_PUBLIC_KEY;
 
+  let hasErrors = false;
+  const validateForm = () => {
+    const emailRegex = /^[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Za-z]{2,}$/;
+  
+    let nameError = "";
+    let emailError = "";
+  
+    if (formInput.name === "") {
+      nameError = "Please enter your name.";
+      hasErrors = true;
+    }
+  
+    if (formInput.email === "" || !emailRegex.test(formInput.email)) {
+      emailError = "Please enter a valid email.";
+      hasErrors = true;
+    }
+  
+    setFormInputError({ nameError, emailError });
+  };
+
   const sendEmail = (e) => {
     e.preventDefault();
+    validateForm();
 
-    emailjs.sendForm(service_key, template_key, form.current, public_key).then(
-      (result) => {
-        setMessage('Sent Successfully, thanks for the email! :)');
-        setShowMessage(true);
-      },
-      (error) => {
-        console.log(error)
-        setMessage('Message did not send, Something went wrong. :(');
-        setShowMessage(true);
-      }
-    );
+    if (!hasErrors) {
+      emailjs
+        .sendForm(service_key, template_key, form.current, public_key)
+        .then(
+          (result) => {
+            setSendMessage("Sent Successfully, thanks for the email! :)");
+            setShowMessage(true);
+          },
+          (error) => {
+            console.log(error);
+            setSendMessage("Message did not send, Something went wrong. :(");
+            setShowMessage(true);
+          }
+        );
 
-    e.target.reset();
+      setFormInput({ ...formInput, name: "", email: "", text: "" });
+    }
   };
 
   return (
@@ -50,26 +88,48 @@ function Contact() {
       <div className="row contact-form-row">
         <form ref={form} onSubmit={sendEmail}>
           <h6 className="contact-form-header">
-            Send me an email to connect or for any questions I'd love to hear from
-            you.
+            Send me an email to connect or for any questions I'd love to hear
+            from you.
           </h6>
           <div className="contact-form-input">
             <label>Name</label>
-            <input type="text" name="user_name" />
+            <input
+              type="text"
+              name="user_name"
+              value={formInput.name}
+              onChange={(e) =>
+                setFormInput({ ...formInput, name: e.target.value })
+              }
+            />
+            <p className="form-error-msg">{formInputError.nameError}</p>
           </div>
           <div className="contact-form-input">
             <label>Email</label>
-            <input type="email" name="user_email" />
+            <input
+              type="text"
+              name="user_email"
+              value={formInput.email}
+              onChange={(e) =>
+                setFormInput({ ...formInput, email: e.target.value })
+              }
+            />
+            <p className="form-error-msg">{formInputError.emailError}</p>
           </div>
           <div className="contact-form-textarea">
             <label>Message</label>
-            <textarea name="message" />
+            <textarea
+              name="message"
+              value={formInput.text}
+              onChange={(e) =>
+                setFormInput({ ...formInput, text: e.target.value })
+              }
+            />
           </div>
           <div className="contact-form-submit">
             <input type="submit" value="Send" />
           </div>
           <div className="send-message">
-            {showMessage && <p>{message}</p>}
+            {showMessage && <p>{sendMessage}</p>}
           </div>
         </form>
       </div>
