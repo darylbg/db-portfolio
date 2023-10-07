@@ -126,7 +126,8 @@ function Contact() {
             />
           </div>
           <div className="contact-form-submit">
-            <input type="submit" value="Send" />
+            <button type="submit">Send</button>
+            
           </div>
           <div className="send-message">
             {showMessage && <p>{sendMessage}</p>}
