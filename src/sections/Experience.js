@@ -1,4 +1,6 @@
 import React from "react";
+import Resume from "../assets/images/DarylBloughResume.pdf";
+import { ArrowUpRight } from "react-feather";
 import "../assets/css/Style.css";
 
 function Experience() {
@@ -53,6 +55,19 @@ function Experience() {
               <span>Graduated high school with a 3.78 GPA</span>
             </li>
           </ul>
+        </div>
+      </div>
+      <div className="resume-button-section">
+        <div className="resume-button">
+          <a
+            href={Resume}
+            rel="noopener noreferrer"
+            target="_blank"
+            className="home-resume"
+          >
+            <span className="home-icon-resume">View my resume</span>
+            <ArrowUpRight />
+          </a>
         </div>
       </div>
       <div className="row work-div">

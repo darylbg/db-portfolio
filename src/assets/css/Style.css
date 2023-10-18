@@ -440,6 +440,23 @@ nav {
   font-family: var(--font-primary);
 }
 
+/* resume button */
+
+.resume-button {
+  display: flex;
+  justify-content: center;
+}
+
+.resume-button a {
+  padding: 5px 10px;
+  text-decoration: none;
+}
+
+.resume-button a svg {
+  margin-left: 10px;
+    height: 20px;
+}
+
 /* experience section */
 
 .experience {
