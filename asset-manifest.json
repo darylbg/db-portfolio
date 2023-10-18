@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/db-portfolio/static/css/main.cc2f52e9.css",
-    "main.js": "/db-portfolio/static/js/main.9a0b8101.js",
+    "main.css": "/db-portfolio/static/css/main.d586ad6d.css",
+    "main.js": "/db-portfolio/static/js/main.15aad75d.js",
     "static/media/airbnp.PNG": "/db-portfolio/static/media/airbnp.3e32200a9b080b6c2632.PNG",
     "static/media/DarylBloughResume.pdf": "/db-portfolio/static/media/DarylBloughResume.789df8bc05909d275618.pdf",
     "static/media/Inter-VariableFont_slnt,wght.ttf": "/db-portfolio/static/media/Inter-VariableFont_slnt,wght.afdb8a07907da21452bf.ttf",
@@ -15,11 +15,11 @@
     "static/media/profile.jpeg": "/db-portfolio/static/media/profile.dcddfbe700d322ce7d44.jpeg",
     "static/media/screenshot1.PNG": "/db-portfolio/static/media/screenshot1.85150955edbff6742217.PNG",
     "index.html": "/db-portfolio/index.html",
-    "main.cc2f52e9.css.map": "/db-portfolio/static/css/main.cc2f52e9.css.map",
-    "main.9a0b8101.js.map": "/db-portfolio/static/js/main.9a0b8101.js.map"
+    "main.d586ad6d.css.map": "/db-portfolio/static/css/main.d586ad6d.css.map",
+    "main.15aad75d.js.map": "/db-portfolio/static/js/main.15aad75d.js.map"
   },
   "entrypoints": [
-    "static/css/main.cc2f52e9.css",
-    "static/js/main.9a0b8101.js"
+    "static/css/main.d586ad6d.css",
+    "static/js/main.15aad75d.js"
   ]
 }
