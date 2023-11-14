@@ -40,6 +40,24 @@ const projects = [
     ],
   },
   {
+    title: "Writeme",
+    description:
+      "WRITEME is an AI writing assistant for creating professional README files for your GitHub repositories. Developed using React JS, this application utilises ChatGPT's API to dynamically generate a README file in markdown syntax. The app seamlessly allows users to edit the generated README file within an IDE environment and copy or save the file directly to your project.",
+    img: "writeme.PNG",
+    liveLink: "https://darylbg.github.io/writeme",
+    codeLink: "https://github.com/darylbg/writeme",
+    pills: [
+      {
+        name: "react js",
+        link: "https://react.dev/",
+      },
+      {
+        name: "chatgpt api",
+        link: "https://rapidapi.com/nextbaseapp/api/chatgpt-gpt4-ai-chatbot/",
+      },
+    ],
+  },
+  {
     title: "ZoomTube",
     description:
       "ZoomTube is an app to discretely watch Youtube videos on your device while appearing as if you are on a Zoom call.",
@@ -76,40 +94,6 @@ const projects = [
       {
         name: "bootstrap",
         link: "https://getbootstrap.com/",
-      },
-    ],
-  },
-  {
-    title: "ReadSky",
-    description:
-      "A social media platform where users can login or register to share their thoughts and opinions in tweet format. Complete with profile editing, commenting, both user and keyword searching, and trending post displays.",
-    img: "ReadSky.PNG",
-    liveLink: "https://github.com/darylbg/readSky-daryl",
-    codeLink: "https://github.com/darylbg/readSky-daryl",
-    pills: [
-      {
-        name: "express",
-        link: "https://expressjs.com/",
-      },
-      {
-        name: "mysql",
-        link: "https://www.mysql.com/",
-      },
-      {
-        name: "HANDLEBARS",
-        link: "https://handlebarsjs.com/",
-      },
-      {
-        name: "NODE JS",
-        link: "https://nodejs.org/en",
-      },
-      {
-        name: "RESTFUL API",
-        link: "https://aws.amazon.com/what-is/restful-api/",
-      },
-      {
-        name: "sequelize",
-        link: "https://sequelize.org/",
       },
     ],
   },
