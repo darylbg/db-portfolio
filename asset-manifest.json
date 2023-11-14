@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/db-portfolio/static/css/main.d586ad6d.css",
-    "main.js": "/db-portfolio/static/js/main.15aad75d.js",
+    "main.js": "/db-portfolio/static/js/main.f517e809.js",
     "static/media/airbnp.PNG": "/db-portfolio/static/media/airbnp.3e32200a9b080b6c2632.PNG",
     "static/media/DarylBloughResume.pdf": "/db-portfolio/static/media/DarylBloughResume.789df8bc05909d275618.pdf",
     "static/media/Inter-VariableFont_slnt,wght.ttf": "/db-portfolio/static/media/Inter-VariableFont_slnt,wght.afdb8a07907da21452bf.ttf",
@@ -11,15 +11,16 @@
     "static/media/portfolio.PNG": "/db-portfolio/static/media/portfolio.0bd77cf4896b97050ca3.PNG",
     "static/media/screenshot2.PNG": "/db-portfolio/static/media/screenshot2.9ed89600ebc9a7e7ccf9.PNG",
     "static/media/ReadSky.PNG": "/db-portfolio/static/media/ReadSky.3910b066a8908d08741c.PNG",
+    "static/media/writeme.PNG": "/db-portfolio/static/media/writeme.fba6e55c99bfe9f38906.PNG",
     "static/media/screenshot3.PNG": "/db-portfolio/static/media/screenshot3.3bbc4feef1ea16bbde35.PNG",
     "static/media/profile.jpeg": "/db-portfolio/static/media/profile.dcddfbe700d322ce7d44.jpeg",
     "static/media/screenshot1.PNG": "/db-portfolio/static/media/screenshot1.85150955edbff6742217.PNG",
     "index.html": "/db-portfolio/index.html",
     "main.d586ad6d.css.map": "/db-portfolio/static/css/main.d586ad6d.css.map",
-    "main.15aad75d.js.map": "/db-portfolio/static/js/main.15aad75d.js.map"
+    "main.f517e809.js.map": "/db-portfolio/static/js/main.f517e809.js.map"
   },
   "entrypoints": [
     "static/css/main.d586ad6d.css",
-    "static/js/main.15aad75d.js"
+    "static/js/main.f517e809.js"
   ]
 }
