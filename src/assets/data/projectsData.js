@@ -3,7 +3,7 @@ const projects = [
     title: "WRITEME",
     description:
       "Writeme is an innovative platform powered by ChatGPT, Say goodbye to the hassle of manually crafting documentation. Simply input your Github username, select the desired repository, and let ChatGPT generate a concise and informative README in markdown syntax. With WRITEME, you can seamlessly edit the generated README, live preview changes, and easily copy or download the file straight into your project. Experience the future of README creation with AI!",
-    img: "writeme.png",
+    img: "writeme.PNG",
     liveLink: "https://darylbg.github.io/writeme/",
     codeLink: "https://github.com/darylbg/writeme",
     pills: [
