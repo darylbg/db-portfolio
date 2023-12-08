@@ -1,5 +1,23 @@
 const projects = [
   {
+    title: "WRITEME",
+    description:
+      "Writeme is an innovative platform powered by ChatGPT, Say goodbye to the hassle of manually crafting documentation. Simply input your Github username, select the desired repository, and let ChatGPT generate a concise and informative README in markdown syntax. With WRITEME, you can seamlessly edit the generated README, live preview changes, and easily copy or download the file straight into your project. Experience the future of README creation with AI!",
+    img: "writeme.png",
+    liveLink: "https://darylbg.github.io/writeme/",
+    codeLink: "https://github.com/darylbg/writeme",
+    pills: [
+      {
+        name: "react js",
+        link: "https://react.dev/",
+      },
+      {
+        name: "ChatGPT API",
+        link: "https://getbootstrap.com/",
+      },
+    ],
+  },
+  {
     title: "Airbnp",
     description:
       "Think Airbnb but for bathrooms. A site where anyone can geolocate themselves and find available, clean, nearby bathrooms to use for a small fee. Featuring a login/logout authentication system, user detail editing, ability to add bathroom listings, ability to locate and book up to payment point nearby bathrooms.",
@@ -76,40 +94,6 @@ const projects = [
       {
         name: "bootstrap",
         link: "https://getbootstrap.com/",
-      },
-    ],
-  },
-  {
-    title: "ReadSky",
-    description:
-      "A social media platform where users can login or register to share their thoughts and opinions in tweet format. Complete with profile editing, commenting, both user and keyword searching, and trending post displays.",
-    img: "ReadSky.PNG",
-    liveLink: "https://github.com/darylbg/readSky-daryl",
-    codeLink: "https://github.com/darylbg/readSky-daryl",
-    pills: [
-      {
-        name: "express",
-        link: "https://expressjs.com/",
-      },
-      {
-        name: "mysql",
-        link: "https://www.mysql.com/",
-      },
-      {
-        name: "HANDLEBARS",
-        link: "https://handlebarsjs.com/",
-      },
-      {
-        name: "NODE JS",
-        link: "https://nodejs.org/en",
-      },
-      {
-        name: "RESTFUL API",
-        link: "https://aws.amazon.com/what-is/restful-api/",
-      },
-      {
-        name: "sequelize",
-        link: "https://sequelize.org/",
       },
     ],
   },
