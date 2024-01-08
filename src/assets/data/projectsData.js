@@ -58,24 +58,6 @@ const projects = [
     ],
   },
   {
-    title: "Writeme",
-    description:
-      "WRITEME is an AI writing assistant for creating professional README files for your GitHub repositories. Developed using React JS, this application utilises ChatGPT's API to dynamically generate a README file in markdown syntax. The app seamlessly allows users to edit the generated README file within an IDE environment and copy or save the file directly to your project.",
-    img: "writeme.PNG",
-    liveLink: "https://darylbg.github.io/writeme",
-    codeLink: "https://github.com/darylbg/writeme",
-    pills: [
-      {
-        name: "react js",
-        link: "https://react.dev/",
-      },
-      {
-        name: "chatgpt api",
-        link: "https://rapidapi.com/nextbaseapp/api/chatgpt-gpt4-ai-chatbot/",
-      },
-    ],
-  },
-  {
     title: "ZoomTube",
     description:
       "ZoomTube is an app to discretely watch Youtube videos on your device while appearing as if you are on a Zoom call.",
