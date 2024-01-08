@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/db-portfolio/static/css/main.d586ad6d.css",
-    "main.js": "/db-portfolio/static/js/main.73abb628.js",
+    "main.js": "/db-portfolio/static/js/main.d177aeb4.js",
     "static/media/airbnp.PNG": "/db-portfolio/static/media/airbnp.3e32200a9b080b6c2632.PNG",
     "static/media/DarylBloughResume.pdf": "/db-portfolio/static/media/DarylBloughResume.789df8bc05909d275618.pdf",
     "static/media/Inter-VariableFont_slnt,wght.ttf": "/db-portfolio/static/media/Inter-VariableFont_slnt,wght.afdb8a07907da21452bf.ttf",
@@ -17,10 +17,10 @@
     "static/media/screenshot1.PNG": "/db-portfolio/static/media/screenshot1.85150955edbff6742217.PNG",
     "index.html": "/db-portfolio/index.html",
     "main.d586ad6d.css.map": "/db-portfolio/static/css/main.d586ad6d.css.map",
-    "main.73abb628.js.map": "/db-portfolio/static/js/main.73abb628.js.map"
+    "main.d177aeb4.js.map": "/db-portfolio/static/js/main.d177aeb4.js.map"
   },
   "entrypoints": [
     "static/css/main.d586ad6d.css",
-    "static/js/main.73abb628.js"
+    "static/js/main.d177aeb4.js"
   ]
 }
