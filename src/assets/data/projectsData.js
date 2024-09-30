@@ -22,8 +22,8 @@ const projects = [
     description:
       "Think Airbnb but for bathrooms. A site where anyone can geolocate themselves and find available, clean, nearby bathrooms to use for a small fee. Featuring a login/logout authentication system, user detail editing, ability to add bathroom listings, ability to locate and book up to payment point nearby bathrooms.",
     img: "airbnp.PNG",
-    liveLink: "https://airbnp-website-190a74645719.herokuapp.com/",
-    codeLink: "https://github.com/darylbg/airbnp",
+    liveLink: "https://airbnp-09fcc295dd0d.herokuapp.com/",
+    codeLink: "https://github.com/darylbg/airbnp-2.0",
     pills: [
       {
         name: "MongoDB",
